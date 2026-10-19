@@ -33,5 +33,5 @@ Your left menu only shows what your role is allowed to open. If a link is missin
 
 ## Next
 
-- <a href="#/getting-started/login">Sign in & find your way</a>
-- <a href="#/getting-started/by-role">Guides by role</a>
+- <a class="ignore" href="#/getting-started/login">Sign in & find your way</a>
+- <a class="ignore" href="#/getting-started/by-role">Guides by role</a>

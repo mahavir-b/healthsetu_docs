@@ -18,7 +18,7 @@ HRSetu manages **employees**, **attendance**, **leave**, **salary**, training, B
 
 ## Training path
 
-1. <a href="#/hrsetu/employees">Employees & onboarding</a>
-2. <a href="#/hrsetu/attendance-leave">Shifts, attendance & leave</a>
-3. <a href="#/hrsetu/payroll">Salary & statutory</a>
-4. <a href="#/hrsetu/my-hr">My HR</a> — share with all staff
+1. <a class="ignore" href="#/hrsetu/employees">Employees & onboarding</a>
+2. <a class="ignore" href="#/hrsetu/attendance-leave">Shifts, attendance & leave</a>
+3. <a class="ignore" href="#/hrsetu/payroll">Salary & statutory</a>
+4. <a class="ignore" href="#/hrsetu/my-hr">My HR</a> — share with all staff
