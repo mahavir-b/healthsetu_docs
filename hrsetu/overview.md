@@ -18,7 +18,7 @@ HRSetu manages **employees**, **attendance**, **leave**, **salary**, training, B
 
 ## Training path
 
-1. [Employees & onboarding](employees.md)
-2. [Shifts, attendance & leave](attendance-leave.md)
-3. [Salary & statutory](payroll.md)
-4. [My HR](my-hr.md) — share with all staff
+1. [Employees & onboarding](/hrsetu/employees.md)
+2. [Shifts, attendance & leave](/hrsetu/attendance-leave.md)
+3. [Salary & statutory](/hrsetu/payroll.md)
+4. [My HR](/hrsetu/my-hr.md) — share with all staff

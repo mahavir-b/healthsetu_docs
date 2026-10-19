@@ -40,7 +40,7 @@ HealthSetu is a multi-module platform for Indian healthcare organisations. Your 
 ## How to use this site
 
 1. Open the **left menu** (same idea as the product sidebar).
-2. Start with [Getting started](getting-started/overview.md) if you are new.
+2. Start with [Getting started](/getting-started/overview.md) if you are new.
 3. Jump to your module, then the screen you use most.
 4. Use **Search** (top of the sidebar) for a keyword such as “crossmatch” or “leave”.
 
@@ -50,7 +50,7 @@ HealthSetu is a multi-module platform for Indian healthcare organisations. Your 
 
 ## Media
 
-Many pages include **screenshot frames** and **video placeholders**. Replace the grey boxes with real captures from your training environment — see [How to add screenshots & videos](assets/media-guide.md).
+Many pages include **screenshot frames** and **video placeholders**. Replace the grey boxes with real captures from your training environment — see [How to add screenshots & videos](/assets/media-guide.md).
 
 <figure class="media-frame">
   <p><em>Screenshot placeholder — HealthSetu home / portal after login</em></p>

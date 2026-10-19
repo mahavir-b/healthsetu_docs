@@ -22,7 +22,7 @@ SupplySetu is the **hospital / blood bank store** module: catalog, stock, assets
 
 ## Training path
 
-1. [Catalog, stock & locations](catalog-stock.md)
-2. [Assets & equipment](assets.md)
-3. [Vendors, quotations & POs](vendors-po.md)
-4. [Daily QC & staff tasks](checklists.md)
+1. [Catalog, stock & locations](/supplysetu/catalog-stock.md)
+2. [Assets & equipment](/supplysetu/assets.md)
+3. [Vendors, quotations & POs](/supplysetu/vendors-po.md)
+4. [Daily QC & staff tasks](/supplysetu/checklists.md)

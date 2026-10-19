@@ -43,5 +43,5 @@ The left menu collapses on smaller screens. Tap the menu icon to open it again.
 
 ## Next
 
-- [Guides by role](by-role.md)
-- [Core overview](../core/overview.md)
+- [Guides by role](/getting-started/by-role.md)
+- [Core overview](/core/overview.md)
