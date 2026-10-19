@@ -30,9 +30,9 @@ Donor / Camp → Collection → Processing → Testing → Stock → Request / I
 
 ## Training path
 
-1. <a href="javascript:location.hash='#/rakhtsetu/donors'">Donors</a>
-2. <a href="javascript:location.hash='#/rakhtsetu/camps'">Camps</a> / <a href="javascript:location.hash='#/rakhtsetu/collections'">Collections</a>
-3. <a href="javascript:location.hash='#/rakhtsetu/processing'">Processing</a>
-4. <a href="javascript:location.hash='#/rakhtsetu/testing'">Testing & crossmatch</a>
-5. <a href="javascript:location.hash='#/rakhtsetu/patients-requests'">Patients & issue requests</a>
-6. <a href="javascript:location.hash='#/rakhtsetu/qc'">QC & compliance</a>
+1. <a href="#" data-hs-route="rakhtsetu/donors">Donors</a>
+2. <a href="#" data-hs-route="rakhtsetu/camps">Camps</a> / <a href="#" data-hs-route="rakhtsetu/collections">Collections</a>
+3. <a href="#" data-hs-route="rakhtsetu/processing">Processing</a>
+4. <a href="#" data-hs-route="rakhtsetu/testing">Testing & crossmatch</a>
+5. <a href="#" data-hs-route="rakhtsetu/patients-requests">Patients & issue requests</a>
+6. <a href="#" data-hs-route="rakhtsetu/qc">QC & compliance</a>

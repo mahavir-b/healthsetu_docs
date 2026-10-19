@@ -45,7 +45,7 @@ HealthSetu is a multi-module platform for Indian healthcare organisations. Your 
 4. Use **Search** (top of the sidebar) for a keyword such as “crossmatch” or “leave”.
 
 <div class="callout callout--tip">
-  <strong>Tip for trainers:</strong> Walk a new joiner through <a href="#/getting-started/by-role">Guides by role</a>, then the three pages they will open every day.
+  <strong>Tip for trainers:</strong> Walk a new joiner through <a href="#" data-hs-route="getting-started/by-role">Guides by role</a>, then the three pages they will open every day.
 </div>
 
 ## Media

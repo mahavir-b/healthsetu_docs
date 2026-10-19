@@ -33,5 +33,5 @@ Your left menu only shows what your role is allowed to open. If a link is missin
 
 ## Next
 
-- <a href="javascript:location.hash='#/getting-started/login'">Sign in & find your way</a>
-- <a href="javascript:location.hash='#/getting-started/by-role'">Guides by role</a>
+- <a href="#" data-hs-route="getting-started/login">Sign in & find your way</a>
+- <a href="#" data-hs-route="getting-started/by-role">Guides by role</a>

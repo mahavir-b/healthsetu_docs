@@ -20,19 +20,6 @@
       loadSidebar: true,
       subMaxLevel: 0,
       relativePath: false,
-      plugins: [
-        function (hook) {
-          hook.doneEach(function () {
-            document.querySelectorAll('a[href^="javascript:location.hash="]').forEach(function (a) {
-              a.addEventListener('click', function (e) {
-                e.preventDefault();
-                var m = a.getAttribute('href').match(/location\.hash='([^']+)'/);
-                if (m) location.hash = m[1];
-              });
-            });
-          });
-        }
-      ],
       auto2top: true,
       homepage: 'README.md',
       search: {
@@ -49,7 +36,26 @@
         nextText: 'Next',
         crossChapter: true,
         crossChapterText: true
-      }
+      },
+      // Docsify rewrites markdown/HTML hrefs relative to the current file and
+      // strips the module folder (e.g. hrsetu/employees -> employees). Route
+      // with data-hs-route instead so in-page training links keep working.
+      plugins: [
+        function (hook) {
+          hook.doneEach(function () {
+            document.querySelectorAll('a[data-hs-route]').forEach(function (a) {
+              var route = a.getAttribute('data-hs-route');
+              if (!route) return;
+              var hash = route.charAt(0) === '#' ? route : '#/' + route.replace(/^\/+/, '');
+              a.setAttribute('href', hash);
+              a.onclick = function (e) {
+                e.preventDefault();
+                location.hash = hash;
+              };
+            });
+          });
+        }
+      ]
     };
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
