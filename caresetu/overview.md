@@ -34,9 +34,9 @@ CareSetu is the **outpatient clinic** module: patients, appointments, doctor OPD
 
 ## Training path
 
-1. [Patients](#/caresetu/patients)
-2. [Appointments & schedules](#/caresetu/appointments)
-3. [OPD visit](#/caresetu/opd)
-4. [Procedures & sittings](#/caresetu/procedures)
-5. [Counsellor board](#/caresetu/counsellor)
-6. [Billing & print](#/caresetu/billing)
+1. <a href="#/caresetu/patients">Patients</a>
+2. <a href="#/caresetu/appointments">Appointments & schedules</a>
+3. <a href="#/caresetu/opd">OPD visit</a>
+4. <a href="#/caresetu/procedures">Procedures & sittings</a>
+5. <a href="#/caresetu/counsellor">Counsellor board</a>
+6. <a href="#/caresetu/billing">Billing & print</a>

@@ -17,40 +17,40 @@ Pick your role. Open the three pages listed — that is enough for the first wee
 
 | Role | Start here |
 |------|------------|
-| Reception | [Patients](#/caresetu/patients) → [Appointments](#/caresetu/appointments) → [Billing](#/caresetu/billing) |
-| Nurse / PA | [Appointments](#/caresetu/appointments) → [OPD visit](#/caresetu/opd) |
-| Doctor | [OPD visit](#/caresetu/opd) → [Procedures](#/caresetu/procedures) |
-| Counsellor | [Counsellor board](#/caresetu/counsellor) → [Procedures](#/caresetu/procedures) |
-| Cashier | [Billing](#/caresetu/billing) → [Patients](#/caresetu/patients) |
+| Reception | <a href="#/caresetu/patients">Patients</a> → <a href="#/caresetu/appointments">Appointments</a> → <a href="#/caresetu/billing">Billing</a> |
+| Nurse / PA | <a href="#/caresetu/appointments">Appointments</a> → <a href="#/caresetu/opd">OPD visit</a> |
+| Doctor | <a href="#/caresetu/opd">OPD visit</a> → <a href="#/caresetu/procedures">Procedures</a> |
+| Counsellor | <a href="#/caresetu/counsellor">Counsellor board</a> → <a href="#/caresetu/procedures">Procedures</a> |
+| Cashier | <a href="#/caresetu/billing">Billing</a> → <a href="#/caresetu/patients">Patients</a> |
 
 ## RakhtSetu blood bank
 
 | Role | Start here |
 |------|------------|
-| Registration / camp | [Donors](#/rakhtsetu/donors) → [Camps](#/rakhtsetu/camps) → [Collections](#/rakhtsetu/collections) |
-| Component / lab | [Processing](#/rakhtsetu/processing) → [Testing](#/rakhtsetu/testing) → [QC](#/rakhtsetu/qc) |
-| Issue counter | [Patients & requests](#/rakhtsetu/patients-requests) → [Testing](#/rakhtsetu/testing) |
+| Registration / camp | <a href="#/rakhtsetu/donors">Donors</a> → <a href="#/rakhtsetu/camps">Camps</a> → <a href="#/rakhtsetu/collections">Collections</a> |
+| Component / lab | <a href="#/rakhtsetu/processing">Processing</a> → <a href="#/rakhtsetu/testing">Testing</a> → <a href="#/rakhtsetu/qc">QC</a> |
+| Issue counter | <a href="#/rakhtsetu/patients-requests">Patients & requests</a> → <a href="#/rakhtsetu/testing">Testing</a> |
 
 ## SupplySetu
 
 | Role | Start here |
 |------|------------|
-| Store | [Catalog & stock](#/supplysetu/catalog-stock) → [Checklists](#/supplysetu/checklists) |
-| Purchase | [Vendors & POs](#/supplysetu/vendors-po) → [Stock](#/supplysetu/catalog-stock) |
-| Biomedical | [Assets](#/supplysetu/assets) → [Checklists](#/supplysetu/checklists) |
+| Store | <a href="#/supplysetu/catalog-stock">Catalog & stock</a> → <a href="#/supplysetu/checklists">Checklists</a> |
+| Purchase | <a href="#/supplysetu/vendors-po">Vendors & POs</a> → <a href="#/supplysetu/catalog-stock">Stock</a> |
+| Biomedical | <a href="#/supplysetu/assets">Assets</a> → <a href="#/supplysetu/checklists">Checklists</a> |
 
 ## HRSetu
 
 | Role | Start here |
 |------|------------|
-| HR admin | [Employees](#/hrsetu/employees) → [Attendance & leave](#/hrsetu/attendance-leave) → [Payroll](#/hrsetu/payroll) |
-| Every employee | [My HR](#/hrsetu/my-hr) |
+| HR admin | <a href="#/hrsetu/employees">Employees</a> → <a href="#/hrsetu/attendance-leave">Attendance & leave</a> → <a href="#/hrsetu/payroll">Payroll</a> |
+| Every employee | <a href="#/hrsetu/my-hr">My HR</a> |
 
 ## Organisation admin (Core)
 
 | Role | Start here |
 |------|------------|
-| Org admin | [Users & roles](#/core/users-roles) → [Settings](#/core/settings) → [Barcodes](#/core/barcodes) |
+| Org admin | <a href="#/core/users-roles">Users & roles</a> → <a href="#/core/settings">Settings</a> → <a href="#/core/barcodes">Barcodes</a> |
 
 <figure class="video-frame">
   <p><em>Video placeholder — “Pick your role: 5-minute tour of the screens you will use”</em></p>

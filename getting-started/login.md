@@ -43,5 +43,5 @@ The left menu collapses on smaller screens. Tap the menu icon to open it again.
 
 ## Next
 
-- [Guides by role](#/getting-started/by-role)
-- [Core overview](#/core/overview)
+- <a href="#/getting-started/by-role">Guides by role</a>
+- <a href="#/core/overview">Core overview</a>
