@@ -31,7 +31,14 @@ Your left menu only shows what your role is allowed to open. If a link is missin
   <strong>For clients:</strong> HealthSetu is built for Indian clinics, blood banks, and hospitals — dates as dd/mm/yyyy, Hindi/Gujarati where forms need them, and workflows that match how the counter and OT actually run.
 </div>
 
+## Security you can explain to leadership
+
+- **Your own database** — another organisation on HealthSetu does not share your patient, donor, stock, or payroll tables (<a href="#" data-hs-route="security/tenant-isolation">details</a>).
+- **Microsoft Azure** — the apps and databases run in Azure cloud infrastructure (<a href="#" data-hs-route="security/azure-cloud">details</a>).
+- Full section: <a href="#" data-hs-route="security/overview">Security &amp; compliance</a>.
+
 ## Next
 
 - <a href="#" data-hs-route="getting-started/login">Sign in & find your way</a>
 - <a href="#" data-hs-route="getting-started/by-role">Guides by role</a>
+- <a href="#" data-hs-route="security/overview">Security &amp; compliance</a>

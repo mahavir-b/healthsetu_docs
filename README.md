@@ -35,6 +35,17 @@ HealthSetu is a multi-module platform for Indian healthcare organisations. Your 
     <strong>CareSetu</strong>
     <span>Clinic OPD: patients, appointments, doctor visit, procedures, counsellor, billing.</span>
   </a>
+  <a class="module-card" href="#/security/overview">
+    <strong>Security &amp; compliance</strong>
+    <span>Own database per organisation, no cross-contamination, hosted on Microsoft Azure.</span>
+  </a>
+</div>
+
+<div class="callout callout--tip">
+  <strong>For owners and IT:</strong> each organisation gets a <strong>dedicated database</strong> so another customer’s data cannot mix with yours — and the platform runs on <strong>Microsoft Azure</strong>.
+  Read <a href="#" data-hs-route="security/overview">Security &amp; compliance</a>,
+  <a href="#" data-hs-route="security/tenant-isolation">tenant isolation</a>, and
+  <a href="#" data-hs-route="security/azure-cloud">Azure hosting</a>.
 </div>
 
 ## How to use this site

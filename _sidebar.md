@@ -5,6 +5,12 @@
   * [Sign in & find your way](#/getting-started/login)
   * [Guides by role](#/getting-started/by-role)
 
+* Security & compliance
+  * [Overview](#/security/overview)
+  * [Your own database](#/security/tenant-isolation)
+  * [Hosted on Azure](#/security/azure-cloud)
+  * [Access & privacy](#/security/access-and-privacy)
+
 * Core (organisation portal)
   * [Overview](#/core/overview)
   * [Inbox & My Work](#/core/inbox)
