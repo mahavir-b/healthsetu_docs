@@ -15,6 +15,8 @@
     window.$docsify = {
       name: 'HealthSetu Help',
       repo: 'mahavir-b/healthsetu_docs',
+      // Project Pages URL is https://mahavir-b.github.io/healthsetu_docs/
+      basePath: location.pathname.indexOf('/healthsetu_docs') === 0 ? '/healthsetu_docs/' : '/',
       loadSidebar: true,
       subMaxLevel: 2,
       auto2top: true,
