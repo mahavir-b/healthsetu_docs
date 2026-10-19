@@ -33,5 +33,5 @@ Your left menu only shows what your role is allowed to open. If a link is missin
 
 ## Next
 
-- [Sign in & find your way](/getting-started/login.md)
-- [Guides by role](/getting-started/by-role.md)
+- [Sign in & find your way](#/getting-started/login)
+- [Guides by role](#/getting-started/by-role)
