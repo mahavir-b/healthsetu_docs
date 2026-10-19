@@ -20,6 +20,19 @@
       loadSidebar: true,
       subMaxLevel: 0,
       relativePath: false,
+      plugins: [
+        function (hook) {
+          hook.doneEach(function () {
+            document.querySelectorAll('a[href^="javascript:location.hash="]').forEach(function (a) {
+              a.addEventListener('click', function (e) {
+                e.preventDefault();
+                var m = a.getAttribute('href').match(/location\.hash='([^']+)'/);
+                if (m) location.hash = m[1];
+              });
+            });
+          });
+        }
+      ],
       auto2top: true,
       homepage: 'README.md',
       search: {

@@ -43,5 +43,5 @@ The left menu collapses on smaller screens. Tap the menu icon to open it again.
 
 ## Next
 
-- <a class="ignore" href="#/getting-started/by-role">Guides by role</a>
-- <a class="ignore" href="#/core/overview">Core overview</a>
+- <a href="javascript:location.hash='#/getting-started/by-role'">Guides by role</a>
+- <a href="javascript:location.hash='#/core/overview'">Core overview</a>

@@ -28,7 +28,7 @@ Most clinical work happens inside RakhtSetu, SupplySetu, HRSetu, or CareSetu —
 
 ## Training path
 
-1. <a class="ignore" href="#/core/inbox">Inbox & My Work</a>
-2. <a class="ignore" href="#/core/users-roles">Users & roles</a> (admins)
-3. <a class="ignore" href="#/core/barcodes">Barcodes & labels</a>
-4. <a class="ignore" href="#/core/settings">Email, branding & settings</a>
+1. <a href="javascript:location.hash='#/core/inbox'">Inbox & My Work</a>
+2. <a href="javascript:location.hash='#/core/users-roles'">Users & roles</a> (admins)
+3. <a href="javascript:location.hash='#/core/barcodes'">Barcodes & labels</a>
+4. <a href="javascript:location.hash='#/core/settings'">Email, branding & settings</a>
