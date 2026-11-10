@@ -11,10 +11,16 @@ HRSetu manages **employees**, **attendance**, **leave**, **salary**, training, B
 - Training and background verification trackers
 - Self-service: check-in, leave, documents, salary slips (as enabled)
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — HR employees list</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/hr-employees.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/hr-employees.png" alt="Employees list" />
+  <figcaption>Employees list with filters for role, status, department, and workplace. <strong>Import / Export</strong> handles bulk changes.</figcaption>
 </figure>
+
+<div class="callout">
+  <strong>New hospital?</strong> Print
+  <a href="#" data-hs-route="getting-started/prep/hrsetu">HRSetu prep (paper &amp; Excel)</a>
+  before Hospital setup — name sites, titles, and shifts on paper first.
+</div>
 
 ## Training path
 
@@ -22,3 +28,4 @@ HRSetu manages **employees**, **attendance**, **leave**, **salary**, training, B
 2. <a href="#" data-hs-route="hrsetu/attendance-leave">Shifts, attendance & leave</a>
 3. <a href="#" data-hs-route="hrsetu/payroll">Salary & statutory</a>
 4. <a href="#" data-hs-route="hrsetu/my-hr">My HR</a> — share with all staff
+5. <a href="#" data-hs-route="hrsetu/reports">HR dashboard & reports</a>

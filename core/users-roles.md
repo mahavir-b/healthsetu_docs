@@ -10,9 +10,9 @@ Organisation admins decide **who can sign in** and **what they can do**.
 4. Save — the person gets an invite / set-password path (depending on your settings).
 5. Confirm they can open only the modules they need.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — Add user form</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/core-users.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/core-users.png" alt="Add user form" />
+  <figcaption><strong>Add user</strong>: set a temporary password (changed at first sign-in) or leave it blank to send an invite, then tick one or more roles.</figcaption>
 </figure>
 
 <figure class="video-frame">

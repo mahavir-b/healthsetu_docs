@@ -9,9 +9,9 @@
 3. Spot-check expiry and discard workflows.
 4. Export or review compliance reports your licence requires.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — QC dashboard</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/rakht-qc.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/rakht-qc.png" alt="QC analytics" />
+  <figcaption>QC analytics: checklists by cadence (daily, weekly, monthly, quarterly, yearly), completion rate, missed QC, and deviations.</figcaption>
 </figure>
 
 <div class="callout callout--tip">

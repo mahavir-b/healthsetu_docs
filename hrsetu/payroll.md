@@ -10,9 +10,9 @@ HR payroll users run **Salary**, **Statutory**, and **Full & Final** as enabled 
 4. Publish payslips to **My HR** when ready.
 5. Complete statutory filings outside or via your statutory screen as configured.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — salary run list (mask real figures in real screenshots)</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/hr-salary.png</code> — blur amounts before publishing</figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/hr-salary.png" alt="Salary runs" />
+  <figcaption>Salary: pick the pay month and run type, then <strong>Create payroll run</strong>. Payroll runs appear below with errors, gross, and net.</figcaption>
 </figure>
 
 <div class="callout callout--warn">

@@ -16,9 +16,9 @@ HealthSetu is built so **your organisation’s data stays yours**. Clinics, bloo
 | **Access by role** | Even inside your organisation, staff only see screens their role allows |
 | **Signed-in sessions** | Work requires a login; shared counters should sign out between users |
 
-<figure class="media-frame">
-  <p><em>Diagram placeholder — one organisation → one dedicated database (no shared patient tables across orgs)</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/security-tenant-isolation.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/security-tenant-isolation.svg" alt="One organisation, one dedicated database" />
+  <figcaption>Each organisation signs in to its own URL and reads and writes only its own database. There are no shared patient or donor tables between organisations.</figcaption>
 </figure>
 
 ## Read next

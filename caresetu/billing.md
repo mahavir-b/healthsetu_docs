@@ -9,9 +9,9 @@ On the visit **Billing** tab (or **Billing** screen):
 3. Hand off to your organisation’s billing / payment process as configured.
 4. Keep item name, qty, and rate clear for the cashier.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — visit billing lines</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/care-billing.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/care-billing.png" alt="Billing" />
+  <figcaption>Billing: open bills with <strong>Pay</strong>, and <strong>New bill</strong> with line items, discount, and payment mode (cash or UPI).</figcaption>
 </figure>
 
 ## Print

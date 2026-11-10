@@ -11,9 +11,14 @@
 5. **Sign** the note when complete (unsigned prints show as draft).
 6. Print summary for the patient when ready.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — OPD visit with plan applied</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/care-opd.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/care-opd-list.png" alt="OPD list" />
+  <figcaption>OPD list for the selected date: each patient’s doctor, status (In consult, Completed), and <strong>Open</strong> / <strong>View</strong>.</figcaption>
+</figure>
+
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/care-opd.png" alt="OPD visit Illness and plan tab" />
+  <figcaption>OPD visit, <strong>Illness &amp; plan</strong> tab: diagnosis search (ICD), suggested care by department, and prescription. Unsigned notes stay as Draft.</figcaption>
 </figure>
 
 <figure class="video-frame">

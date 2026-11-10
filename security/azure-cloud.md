@@ -11,9 +11,9 @@ HealthSetu runs on **Microsoft Azure** — Microsoft’s cloud platform used by 
 | **Scale & availability** | Capacity and uptime are designed around cloud operations (patches, failover patterns, and monitoring as operated by the HealthSetu team) |
 | **Network & identity** | Traffic and admin access follow Azure-oriented security practices used for the HealthSetu deployment |
 
-<figure class="media-frame">
-  <p><em>Diagram placeholder — Users → HealthSetu apps on Azure → your organisation’s dedicated database</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/security-azure-architecture.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/security-azure-architecture.svg" alt="HealthSetu on Microsoft Azure" />
+  <figcaption>Staff connect over HTTPS to HealthSetu apps on Microsoft Azure. The apps reach only your organisation’s dedicated database.</figcaption>
 </figure>
 
 ## How this pairs with tenant isolation

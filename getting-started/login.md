@@ -10,9 +10,9 @@
   Never share your password. On a shared counter PC, always sign out when you leave.
 </div>
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — login screen</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/login.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/login.png" alt="Organisation sign-in page" />
+  <figcaption>Sign-in page for your organisation. The heading shows your organisation name — if it does not, you are on the wrong URL.</figcaption>
 </figure>
 
 <figure class="video-frame">

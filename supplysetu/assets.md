@@ -9,9 +9,9 @@
 - Link service contracts
 - See which device is due for maintenance
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — asset detail with documents</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/supply-assets.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/supply-assets.png" alt="Add asset form" />
+  <figcaption><strong>Add asset</strong>: item type, serial and model number, vendor, and location. Use <strong>Add from PO delivery</strong> to register equipment you just received.</figcaption>
 </figure>
 
 <div class="callout">

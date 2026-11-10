@@ -21,9 +21,9 @@ Shared barcode templates live in Core so every module prints the same style of l
 3. Open **Designer** to move text and barcode symbols.
 4. Save, then test-print one label on the real printer.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — barcode designer / mapping</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/core-barcodes.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/core-barcodes.png" alt="Barcode label designer" />
+  <figcaption>Barcode <strong>Designer</strong>: canvas preview on the left, inspector for label size and elements on the right. Use <strong>Print preview</strong> before saving.</figcaption>
 </figure>
 
 <div class="callout">

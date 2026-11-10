@@ -10,9 +10,9 @@
 4. Move accepted donors into **Collections**.
 5. Close the camp with counts (registered / collected / deferred).
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — camp day screen</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/rakht-camp.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/rakht-camp.png" alt="New camp form" />
+  <figcaption><strong>New camp</strong>: copy from a previous camp, then set organiser, expected donors, venue, schedule, and on-site contact.</figcaption>
 </figure>
 
 <figure class="video-frame">

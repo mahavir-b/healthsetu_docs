@@ -9,9 +9,9 @@ Use **Donors** to register walk-in and camp donors, update details, and see dona
 3. Capture consent and questionnaire answers as your SOP requires.
 4. Save — note the donor number for the collection desk.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — donor registration form</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/rakht-donors.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/rakht-donors.png" alt="Add donor form" />
+  <figcaption><strong>Add donor</strong>: basic info, contact info, and medical conditions. <strong>Sync with ABHA</strong> links the donor to their ABHA health ID.</figcaption>
 </figure>
 
 ## Everyday tips

@@ -1,0 +1,8 @@
+area,test_or_marker,method,kit_brand,notes
+grouping,ABO/Rh,gel,,
+TTI,HIV,ELISA,,
+TTI,HBsAg,ELISA,,
+TTI,HCV,ELISA,,
+TTI,Syphilis,Rapid,,
+TTI,Malaria,Rapid,,
+crossmatch,Major,manual,,MO marks compatible

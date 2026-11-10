@@ -9,9 +9,9 @@
 3. Capture volume, start/end time, and any adverse reaction notes.
 4. Save — the unit should appear for **Processing**.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — collection entry</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/rakht-collections.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/rakht-collections.png" alt="Collections queue" />
+  <figcaption>Collections: <strong>My collections</strong> and <strong>Donors waiting for collection</strong>, with In progress and Completed tabs.</figcaption>
 </figure>
 
 <div class="callout callout--warn">

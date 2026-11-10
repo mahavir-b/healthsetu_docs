@@ -1,0 +1,4 @@
+site,shift_name,start,end,used_by
+Main OPD,Morning,08:00,14:00,OPD; Nursing; Front desk
+Main OPD,Evening,14:00,20:00,OPD; Nursing
+Main OPD,Night,20:00,08:00,Nursing

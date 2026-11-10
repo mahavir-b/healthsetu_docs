@@ -1,0 +1,2 @@
+doctor_name,weekdays,start,end,slot_minutes,max_patients,room
+Dr Sharma,Mon-Sat,09:00,13:00,15,20,OPD-1

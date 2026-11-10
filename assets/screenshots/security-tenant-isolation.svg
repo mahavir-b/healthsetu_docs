@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Segoe UI, system-ui, sans-serif" role="img" aria-label="Each organisation signs in to its own URL and reads and writes only its own dedicated database">
+  <rect width="760" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#168562"/></marker>
+  </defs>
+  <text x="380" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">One organisation → one dedicated database</text>
+
+  <!-- shared platform -->
+  <rect x="230" y="150" width="300" height="60" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="380" y="176" text-anchor="middle" font-size="14" font-weight="600" fill="#0f172a">HealthSetu apps</text>
+  <text x="380" y="196" text-anchor="middle" font-size="12" fill="#64748b">sign-in resolves your organisation</text>
+
+  <g font-size="13">
+    <!-- org A -->
+    <rect x="40" y="60" width="200" height="56" rx="10" fill="#f0fdf4" stroke="#1d9e75"/>
+    <text x="140" y="84" text-anchor="middle" font-weight="600" fill="#0f172a">Clinic A staff</text>
+    <text x="140" y="103" text-anchor="middle" font-size="12" fill="#64748b">clinica.healthsetu…</text>
+    <rect x="40" y="260" width="200" height="64" rx="10" fill="#1d9e75"/>
+    <text x="140" y="287" text-anchor="middle" font-weight="600" fill="#ffffff">Clinic A database</text>
+    <text x="140" y="306" text-anchor="middle" font-size="12" fill="#e7f6f0">patients · stock · payroll</text>
+
+    <!-- org B -->
+    <rect x="280" y="60" width="200" height="56" rx="10" fill="#f0fdf4" stroke="#1d9e75"/>
+    <text x="380" y="84" text-anchor="middle" font-weight="600" fill="#0f172a">Blood bank B staff</text>
+    <text x="380" y="103" text-anchor="middle" font-size="12" fill="#64748b">bankb.healthsetu…</text>
+    <rect x="280" y="260" width="200" height="64" rx="10" fill="#1d9e75"/>
+    <text x="380" y="287" text-anchor="middle" font-weight="600" fill="#ffffff">Blood bank B database</text>
+    <text x="380" y="306" text-anchor="middle" font-size="12" fill="#e7f6f0">donors · units · issues</text>
+
+    <!-- org C -->
+    <rect x="520" y="60" width="200" height="56" rx="10" fill="#f0fdf4" stroke="#1d9e75"/>
+    <text x="620" y="84" text-anchor="middle" font-weight="600" fill="#0f172a">Hospital C staff</text>
+    <text x="620" y="103" text-anchor="middle" font-size="12" fill="#64748b">hospc.healthsetu…</text>
+    <rect x="520" y="260" width="200" height="64" rx="10" fill="#1d9e75"/>
+    <text x="620" y="287" text-anchor="middle" font-weight="600" fill="#ffffff">Hospital C database</text>
+    <text x="620" y="306" text-anchor="middle" font-size="12" fill="#e7f6f0">visits · employees · assets</text>
+  </g>
+
+  <g stroke="#168562" stroke-width="2" fill="none" marker-end="url(#a)">
+    <path d="M140 116 L300 150"/>
+    <path d="M380 116 L380 150"/>
+    <path d="M620 116 L460 150"/>
+    <path d="M300 210 L150 258"/>
+    <path d="M380 210 L380 258"/>
+    <path d="M460 210 L610 258"/>
+  </g>
+  <g stroke="#dc2626" stroke-width="2">
+    <line x1="252" y1="285" x2="268" y2="301"/><line x1="268" y1="285" x2="252" y2="301"/>
+    <line x1="492" y1="285" x2="508" y2="301"/><line x1="508" y1="285" x2="492" y2="301"/>
+  </g>
+  <text x="380" y="348" text-anchor="middle" font-size="12" fill="#64748b">No shared patient or donor tables between organisations</text>
+</svg>

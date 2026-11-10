@@ -10,9 +10,9 @@ Procedure courses (laser, peels, etc.) are planned for **N sittings** with conse
 4. Interval rules may ask for a reason if you book sooner than the template allows.
 5. Reschedule moves a sitting in one step when plans change.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — procedure course with sittings table</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/care-procedures.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/care-procedures.png" alt="Procedure course" />
+  <figcaption>Procedure course: consent status, current sitting, pre-procedure checklist, and the sittings table.</figcaption>
 </figure>
 
 <figure class="video-frame">

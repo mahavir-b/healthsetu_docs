@@ -19,9 +19,9 @@ When your organisation is set up on HealthSetu:
   <strong>Cross-contamination eliminated at the storage layer:</strong> there is no shared “all patients in India” table that every hospital queries. Your donors, visits, stock, and employees are not mixed with another customer’s rows.
 </div>
 
-<figure class="media-frame">
-  <p><em>Screenshot / diagram placeholder — provisioning shows a dedicated database name for the organisation (read-only for clients)</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/security-org-database.png</code> — blur secrets; show only that a distinct DB exists</figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/security-org-database.png" alt="Provisioning log" />
+  <figcaption>Provisioning log for one organisation: each schema pack is applied inside that organisation’s own database.</figcaption>
 </figure>
 
 ## What stays separate

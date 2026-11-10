@@ -1,0 +1,4 @@
+applies_to,department_or_job,required_tests,frequency
+all,,CBC; Vision,yearly
+department,Production floor,Audiometry; Spirometry,yearly
+job,Welder,Audiometry; Vision,6 months

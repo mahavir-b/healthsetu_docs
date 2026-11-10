@@ -1,0 +1,6 @@
+equipment_name,location,used_for,temp_range,daily_qc_yn
+ELISA reader,Lab,TTI,,Y
+Blood bank fridge 1,Issue,storage,2-6C,Y
+Deep freezer,Component,storage,-40C,Y
+Platelet agitator,Component,storage,20-24C,Y
+Centrifuge,Component,processing,,N

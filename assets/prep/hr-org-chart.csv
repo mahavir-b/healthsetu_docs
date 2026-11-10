@@ -1,0 +1,5 @@
+site,department,job_title,typical_count,reports_to
+Main OPD,Nursing,Staff nurse,6,Ward in-charge
+Main OPD,Nursing,Ward in-charge,1,Nursing head
+Main OPD,OPD,Consultant doctor,3,Medical director
+Main OPD,Front desk,Receptionist,2,Admin

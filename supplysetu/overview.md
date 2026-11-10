@@ -11,9 +11,9 @@ SupplySetu is the **hospital / blood bank store** module: catalog, stock, assets
 - Quotations and purchase orders (including vendor portal links)
 - Daily QC / staff tasks and operations reports
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — inventory stock list</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/supply-stock.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/supply-stock.png" alt="Stock list" />
+  <figcaption>Stock, with category tabs and the <strong>Set up your store</strong> steps: Locations → Vendors → Catalog → Stock. Stock stays empty until a catalog item exists.</figcaption>
 </figure>
 
 <figure class="video-frame">

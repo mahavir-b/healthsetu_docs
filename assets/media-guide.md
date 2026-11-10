@@ -16,20 +16,30 @@ Trainers and admins can drop real media into this repo. Pages already point at e
 </figure>
 ```
 
-### Suggested filenames
+### Screenshots in this site
+
+Current screenshots were captured at 1440 × 900 from the demo organisation **caretest** (`cat`), using demo patients and staff only. Keep the same file name when you refresh one, and every page that uses it updates.
+
+| Prefix | Module |
+|--------|--------|
+| `login.png`, `home-portal.png`, `core-*.png` | Core portal and organisation admin |
+| `rakht-*.png` | RakhtSetu |
+| `supply-*.png` | SupplySetu |
+| `hr-*.png` | HRSetu |
+| `care-*.png` | CareSetu |
+| `security-*.png` / `.svg` | Security & compliance diagrams |
+
+### Still needed
+
+SwasthaSetu is not enabled for the demo organisation, so these pages still show placeholders:
 
 | File | Subject |
 |------|---------|
-| `home-portal.png` | Portal after login |
-| `core-users.png` | Users list |
-| `rakht-donors.png` | Donor list / register |
-| `rakht-camp.png` | Camp day screen |
-| `supply-stock.png` | Stock list |
-| `supply-po.png` | Purchase order |
-| `hr-employees.png` | Employee list |
-| `hr-attendance.png` | Attendance |
-| `care-opd.png` | OPD visit |
-| `care-appointments.png` | Appointment calendar |
+| `ohc-dashboard.png` | SwasthaSetu dashboard |
+| `ohc-pre-employment.png` | Pre-employment exam |
+| `ohc-periodic.png` | Periodic medical exam |
+| `ohc-ambulance-check.png` | Ambulance daily checklist |
+| `ohc-bmw.png` | Biomedical waste log |
 
 ## Videos
 

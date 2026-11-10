@@ -12,9 +12,9 @@ Every employee with a login can use **My HR** without being an HR admin.
 | View salary slip (when published) | My HR → Salary |
 | Clearances | My HR → Clearances |
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — My HR home</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/hr-me.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/hr-me.png" alt="My HR" />
+  <figcaption>My HR tabs: Profile, Leave, Attendance, Holidays, Documents, Work clearances, Salary, and Check-in.</figcaption>
 </figure>
 
 <figure class="video-frame">

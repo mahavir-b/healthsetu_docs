@@ -1,0 +1,4 @@
+location_name,parent,kept_here,issued_by
+Main store,,General consumables,Storekeeper
+OT store,Main store,OT disposables,OT nurse
+Blood bank fridge room,,Kits and cold items,Lab tech

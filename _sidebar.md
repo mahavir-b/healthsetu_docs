@@ -4,6 +4,15 @@
   * [What is HealthSetu?](#/getting-started/overview)
   * [Sign in & find your way](#/getting-started/login)
   * [Guides by role](#/getting-started/by-role)
+  * [Before you start (paper & Excel)](#/getting-started/before-you-start)
+  * [Prep — HRSetu](#/getting-started/prep/hrsetu)
+  * [Prep — RakhtSetu](#/getting-started/prep/rakhtsetu)
+  * [Prep — CareSetu](#/getting-started/prep/caresetu)
+  * [Prep — SupplySetu](#/getting-started/prep/supplysetu)
+  * [Prep — SwasthaSetu](#/getting-started/prep/swasthasetu)
+  * [Go-live checklist (admins)](#/getting-started/admin-setup)
+  * [FAQ & troubleshooting](#/getting-started/faq)
+  * [Glossary](#/getting-started/glossary)
 
 * Security & compliance
   * [Overview](#/security/overview)
@@ -17,6 +26,7 @@
   * [Users & roles](#/core/users-roles)
   * [Barcodes & labels](#/core/barcodes)
   * [Email, branding & settings](#/core/settings)
+  * [WhatsApp & communications](#/core/communications)
 
 * RakhtSetu (blood bank)
   * [Overview](#/rakhtsetu/overview)
@@ -41,6 +51,7 @@
   * [Shifts, attendance & leave](#/hrsetu/attendance-leave)
   * [Salary & statutory](#/hrsetu/payroll)
   * [My HR (self-service)](#/hrsetu/my-hr)
+  * [HR dashboard & reports](#/hrsetu/reports)
 
 * CareSetu (clinic / OPD)
   * [Overview](#/caresetu/overview)
@@ -50,5 +61,11 @@
   * [Procedures & sittings](#/caresetu/procedures)
   * [Counsellor board](#/caresetu/counsellor)
   * [Billing & print](#/caresetu/billing)
+  * [Clinic setup & reports](#/caresetu/setup)
+
+* SwasthaSetu (occupational health)
+  * [Overview](#/swasthasetu/overview)
+  * [Medical exams](#/swasthasetu/exams)
+  * [Site safety & compliance checks](#/swasthasetu/site-checks)
 
 * [How to add screenshots & videos](#/assets/media-guide)

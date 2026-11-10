@@ -11,6 +11,7 @@ HealthSetu is the shared platform your organisation uses for clinical and operat
 | **SupplySetu** | Store, purchase, biomedical, QC | Stock, assets, vendors, POs, checklists |
 | **HRSetu** | HR and every employee (self-service) | Employees, attendance, leave, salary |
 | **CareSetu** | Reception, nurses, doctors, counsellor, cashier | Clinic patients, OPD, procedures, billing |
+| **SwasthaSetu** | Occupational health centre doctors and nurses, HR, safety | Worker medical exams, OHC OPD, site safety checks |
 
 Your left menu only shows what your role is allowed to open. If a link is missing, ask your organisation admin — it is usually a role or module setting, not a bug.
 
@@ -18,13 +19,13 @@ Your left menu only shows what your role is allowed to open. If a link is missin
 
 1. Open your organisation URL and **sign in**.
 2. Check **Inbox / My Work** for tasks waiting on you.
-3. Open the module you work in (Care, Blood Bank, Supply, HR).
+3. Open the module you work in (Care, Blood Bank, Supply, HR, OHC).
 4. Complete the screen’s next action (book, collect, issue, approve, print).
 5. Sign out on shared computers.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — left menu with Home, My Work, and your modules</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/home-portal.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/home-portal.png" alt="HealthSetu portal after login" />
+  <figcaption>The left menu is grouped into Home, People, Care &amp; Clinical, Operations, Insights &amp; Reports, Administration, and My Work. You see only the screens your role allows.</figcaption>
 </figure>
 
 <div class="callout">
@@ -39,6 +40,9 @@ Your left menu only shows what your role is allowed to open. If a link is missin
 
 ## Next
 
+- <a href="#" data-hs-route="getting-started/before-you-start">Before you start (paper & Excel)</a> — for owners before first setup
 - <a href="#" data-hs-route="getting-started/login">Sign in & find your way</a>
 - <a href="#" data-hs-route="getting-started/by-role">Guides by role</a>
+- <a href="#" data-hs-route="getting-started/admin-setup">Go-live checklist (admins)</a>
+- <a href="#" data-hs-route="getting-started/faq">FAQ & troubleshooting</a>
 - <a href="#" data-hs-route="security/overview">Security &amp; compliance</a>

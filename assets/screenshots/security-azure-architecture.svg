@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" font-family="Segoe UI, system-ui, sans-serif" role="img" aria-label="Staff browsers connect over HTTPS to HealthSetu apps hosted on Microsoft Azure, which reach only your organisation's dedicated database">
+  <rect width="760" height="300" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#168562"/></marker>
+  </defs>
+  <text x="380" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Where HealthSetu runs</text>
+
+  <rect x="30" y="110" width="160" height="80" rx="10" fill="#f0fdf4" stroke="#1d9e75"/>
+  <text x="110" y="144" text-anchor="middle" font-size="14" font-weight="600" fill="#0f172a">Your staff</text>
+  <text x="110" y="164" text-anchor="middle" font-size="12" fill="#64748b">browser · counter PC · phone</text>
+
+  <rect x="240" y="60" width="490" height="200" rx="14" fill="#eff6ff" stroke="#bfdbfe" stroke-dasharray="6 4"/>
+  <text x="485" y="84" text-anchor="middle" font-size="13" font-weight="600" fill="#1e40af">Microsoft Azure</text>
+
+  <rect x="270" y="110" width="190" height="80" rx="10" fill="#ffffff" stroke="#93c5fd"/>
+  <text x="365" y="140" text-anchor="middle" font-size="14" font-weight="600" fill="#0f172a">HealthSetu apps</text>
+  <text x="365" y="160" text-anchor="middle" font-size="12" fill="#64748b">Core · Care · Rakht · Supply</text>
+  <text x="365" y="176" text-anchor="middle" font-size="12" fill="#64748b">HR · Swastha · Comms</text>
+
+  <rect x="510" y="110" width="190" height="80" rx="10" fill="#1d9e75"/>
+  <text x="605" y="140" text-anchor="middle" font-size="14" font-weight="600" fill="#ffffff">Your organisation’s</text>
+  <text x="605" y="160" text-anchor="middle" font-size="14" font-weight="600" fill="#ffffff">dedicated database</text>
+  <text x="605" y="178" text-anchor="middle" font-size="12" fill="#e7f6f0">Azure SQL</text>
+
+  <rect x="510" y="206" width="190" height="40" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="605" y="231" text-anchor="middle" font-size="12" fill="#64748b">other organisations’ databases</text>
+
+  <g stroke="#168562" stroke-width="2" fill="none" marker-end="url(#a)">
+    <path d="M190 150 L268 150"/>
+    <path d="M460 150 L508 150"/>
+  </g>
+  <text x="229" y="140" text-anchor="middle" font-size="11" fill="#64748b">HTTPS</text>
+  <g stroke="#dc2626" stroke-width="2">
+    <line x1="478" y1="216" x2="492" y2="230"/><line x1="492" y1="216" x2="478" y2="230"/>
+  </g>
+  <text x="380" y="286" text-anchor="middle" font-size="12" fill="#64748b">Your login only reaches your own database</text>
+</svg>

@@ -9,9 +9,9 @@
 3. Complete the action (approve, dismiss, open linked record).
 4. Refresh if a colleague just assigned something.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — My Work / Inbox list</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/core-inbox.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/core-inbox.png" alt="Inbox" />
+  <figcaption>Inbox lists approvals, tasks, and alerts assigned to you. Filter by type and switch between Open and Done.</figcaption>
 </figure>
 
 ## What you might see

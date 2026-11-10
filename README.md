@@ -17,7 +17,7 @@ HealthSetu is a multi-module platform for Indian healthcare organisations. Your 
 <div class="module-grid">
   <a class="module-card" href="#/core/overview">
     <strong>Core</strong>
-    <span>Organisation login, users & roles, inbox, barcodes, email and branding.</span>
+    <span>Organisation login, users & roles, inbox, barcodes, email, WhatsApp, and branding.</span>
   </a>
   <a class="module-card" href="#/rakhtsetu/overview">
     <strong>RakhtSetu</strong>
@@ -34,6 +34,10 @@ HealthSetu is a multi-module platform for Indian healthcare organisations. Your 
   <a class="module-card" href="#/caresetu/overview">
     <strong>CareSetu</strong>
     <span>Clinic OPD: patients, appointments, doctor visit, procedures, counsellor, billing.</span>
+  </a>
+  <a class="module-card" href="#/swasthasetu/overview">
+    <strong>SwasthaSetu</strong>
+    <span>Occupational health centre: pre-employment and periodic exams, OHC OPD, safety checks.</span>
   </a>
   <a class="module-card" href="#/security/overview">
     <strong>Security &amp; compliance</strong>
@@ -52,20 +56,22 @@ HealthSetu is a multi-module platform for Indian healthcare organisations. Your 
 
 1. Open the **left menu** (same idea as the product sidebar).
 2. Start with [Getting started](#/getting-started/overview) if you are new.
-3. Jump to your module, then the screen you use most.
-4. Use **Search** (top of the sidebar) for a keyword such as “crossmatch” or “leave”.
+3. **Owners / first setup:** print [Before you start (paper & Excel)](#/getting-started/before-you-start) before opening Hospital setup.
+4. Jump to your module, then the screen you use most.
+5. Use **Search** (top of the sidebar) for a keyword such as “crossmatch” or “leave”.
 
 <div class="callout callout--tip">
   <strong>Tip for trainers:</strong> Walk a new joiner through <a href="#" data-hs-route="getting-started/by-role">Guides by role</a>, then the three pages they will open every day.
+  For a new hospital, start with <a href="#" data-hs-route="getting-started/before-you-start">Before you start</a> — paper first, then Excel, then software.
 </div>
 
 ## Media
 
-Many pages include **screenshot frames** and **video placeholders**. Replace the grey boxes with real captures from your training environment — see [How to add screenshots & videos](#/assets/media-guide).
+Pages include **screenshots** from a demo organisation and **video placeholders** for short training clips. To add or refresh media, see [How to add screenshots & videos](#/assets/media-guide).
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — HealthSetu home / portal after login</em></p>
-  <figcaption>Suggested file: <code>assets/screenshots/home-portal.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/home-portal.png" alt="HealthSetu portal after login" />
+  <figcaption>The left menu is grouped into Home, People, Care &amp; Clinical, Operations, Insights &amp; Reports, Administration, and My Work. You see only the screens your role allows.</figcaption>
 </figure>
 
 ## Need help beyond this site?

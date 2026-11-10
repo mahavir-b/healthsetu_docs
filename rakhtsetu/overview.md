@@ -12,9 +12,9 @@ RakhtSetu is the blood bank module: from **camp and donor** through **collection
 - Component QC and compliance dashboards
 - Partner hospitals and partner blood banks
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — RakhtSetu dashboard</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/rakht-dashboard.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/rakht-dashboard.png" alt="RakhtSetu executive dashboard" />
+  <figcaption>Executive dashboard: donations today and this month, inventory units, units expiring soon, discards, and crossmatch success. Tabs along the top open Camps, Tasks, Donor analytics, Lab analytics, and Crossmatch.</figcaption>
 </figure>
 
 <figure class="video-frame">
@@ -27,6 +27,12 @@ RakhtSetu is the blood bank module: from **camp and donor** through **collection
 Donor / Camp → Collection → Processing → Testing → Stock → Request / Issue
                               ↘ Component QC ↗
 ```
+
+<div class="callout">
+  <strong>New blood bank?</strong> Print
+  <a href="#" data-hs-route="getting-started/prep/rakhtsetu">RakhtSetu prep (paper &amp; Excel)</a>
+  first — hospitals, machines, TTI methods, and QC cadence on paper before admin screens.
+</div>
 
 ## Training path
 

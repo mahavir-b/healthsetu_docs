@@ -1,0 +1,5 @@
+area,daily,weekly,monthly,quarterly,owner_role
+Fridge / cold chain,Y,N,N,N,Lab tech
+ELISA reader,Y,N,N,N,Lab tech
+Component QC,N,Y,N,N,Quality
+Kit / reagent,N,N,Y,N,Lab in-charge

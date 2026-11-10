@@ -11,6 +11,7 @@ Pick your role. Open the three pages listed — that is enough for the first wee
 <span class="role-chip">Camp organiser</span>
 <span class="role-chip">Store / purchase</span>
 <span class="role-chip">HR</span>
+<span class="role-chip">OHC doctor / nurse</span>
 <span class="role-chip">Organisation admin</span>
 
 ## CareSetu clinic
@@ -22,6 +23,7 @@ Pick your role. Open the three pages listed — that is enough for the first wee
 | Doctor | <a href="#" data-hs-route="caresetu/opd">OPD visit</a> → <a href="#" data-hs-route="caresetu/procedures">Procedures</a> |
 | Counsellor | <a href="#" data-hs-route="caresetu/counsellor">Counsellor board</a> → <a href="#" data-hs-route="caresetu/procedures">Procedures</a> |
 | Cashier | <a href="#" data-hs-route="caresetu/billing">Billing</a> → <a href="#" data-hs-route="caresetu/patients">Patients</a> |
+| Clinic admin | <a href="#" data-hs-route="caresetu/setup">Clinic setup & reports</a> |
 
 ## RakhtSetu blood bank
 
@@ -44,13 +46,21 @@ Pick your role. Open the three pages listed — that is enough for the first wee
 | Role | Start here |
 |------|------------|
 | HR admin | <a href="#" data-hs-route="hrsetu/employees">Employees</a> → <a href="#" data-hs-route="hrsetu/attendance-leave">Attendance & leave</a> → <a href="#" data-hs-route="hrsetu/payroll">Payroll</a> |
+| HR manager | <a href="#" data-hs-route="hrsetu/reports">HR dashboard & reports</a> → <a href="#" data-hs-route="hrsetu/attendance-leave">Attendance & leave</a> |
 | Every employee | <a href="#" data-hs-route="hrsetu/my-hr">My HR</a> |
+
+## SwasthaSetu (OHC)
+
+| Role | Start here |
+|------|------------|
+| OHC doctor / nurse | <a href="#" data-hs-route="swasthasetu/overview">Overview</a> → <a href="#" data-hs-route="swasthasetu/exams">Medical exams</a> |
+| Safety / EHS | <a href="#" data-hs-route="swasthasetu/site-checks">Site safety & compliance checks</a> |
 
 ## Organisation admin (Core)
 
 | Role | Start here |
 |------|------------|
-| Org admin | <a href="#" data-hs-route="core/users-roles">Users & roles</a> → <a href="#" data-hs-route="core/settings">Settings</a> → <a href="#" data-hs-route="core/barcodes">Barcodes</a> |
+| Org admin | <a href="#" data-hs-route="getting-started/admin-setup">Go-live checklist</a> → <a href="#" data-hs-route="core/users-roles">Users & roles</a> → <a href="#" data-hs-route="core/settings">Settings</a> → <a href="#" data-hs-route="core/barcodes">Barcodes</a> |
 
 <figure class="video-frame">
   <p><em>Video placeholder — “Pick your role: 5-minute tour of the screens you will use”</em></p>

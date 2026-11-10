@@ -9,9 +9,9 @@
 3. If new: Add patient (name, phone, gender, age / DOB, address as required).
 4. Open the chart for visits, documents, and next steps (follow-ups).
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — patient list / search</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/care-patients.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/care-patients.png" alt="Patients list" />
+  <figcaption>Patients: search by mobile, UHID, or name before you add a new patient.</figcaption>
 </figure>
 
 ## Next steps on the list

@@ -172,3 +172,82 @@ body {
 .app-name-link span {
   font-weight: 700;
 }
+
+/* Printable prep worksheets — Ctrl+P / Cmd+P on Before you start pages */
+.prep-print-hint {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0.75rem 0 1.25rem;
+  padding: 0.65rem 0.9rem;
+  border: 1px dashed var(--hs-border);
+  border-radius: 8px;
+  background: var(--hs-surface);
+  font-size: 0.9rem;
+  color: var(--hs-muted);
+}
+
+.prep-print-hint button {
+  border: 1px solid var(--hs-brand);
+  background: var(--hs-brand);
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.prep-print-hint button:hover {
+  background: var(--hs-brand-dark);
+}
+
+.markdown-section table td,
+.markdown-section table th {
+  vertical-align: top;
+}
+
+@media print {
+  .sidebar,
+  .sidebar-toggle,
+  .search,
+  .app-nav,
+  .pagination-item,
+  .prep-print-hint,
+  .github-corner {
+    display: none !important;
+  }
+
+  .content {
+    left: 0 !important;
+    padding: 0 !important;
+  }
+
+  .markdown-section {
+    max-width: none;
+    padding: 0 8mm;
+  }
+
+  .markdown-section table {
+    page-break-inside: auto;
+    font-size: 11pt;
+  }
+
+  .markdown-section tr {
+    page-break-inside: avoid;
+  }
+
+  .callout,
+  .module-grid {
+    break-inside: avoid;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+}

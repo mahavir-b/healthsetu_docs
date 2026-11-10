@@ -4,6 +4,11 @@
 
 Maintain vendor contacts and the **document checklist** (GST, licences, cancelled cheque, etc.) before you buy.
 
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/supply-vendors.png" alt="Vendors list" />
+  <figcaption>Vendors: each vendor’s document checklist status. Use <strong>Add vendor</strong> to register a supplier.</figcaption>
+</figure>
+
 ## Quotations
 
 1. Raise a quotation request for the items you need.
@@ -17,9 +22,9 @@ Maintain vendor contacts and the **document checklist** (GST, licences, cancelle
 3. When goods arrive: mark delivery, run **stock intake**, then **put-away** to locations.
 4. Keep invoice / GRN documents on the PO.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — purchase order detail</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/supply-po.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/supply-po.png" alt="New purchase order" />
+  <figcaption><strong>New purchase order</strong>: order type, approved vendor, and line items picked from that vendor’s catalogue. Save as draft before sending.</figcaption>
 </figure>
 
 <figure class="video-frame">

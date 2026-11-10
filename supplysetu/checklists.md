@@ -12,9 +12,9 @@ Use **Daily QC** for fridge temperatures, cleanliness, equipment start-of-day ch
 
 **Staff tasks** are assignable to-dos (restock, follow up vendor, calibrate). Clear your queue before end of shift.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — daily QC checklist</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/supply-qc.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/supply-qc.png" alt="Daily QC checklist" />
+  <figcaption>Daily QC checklist for today. It stays empty until QC templates are linked to inventory or equipment.</figcaption>
 </figure>
 
 <div class="callout callout--tip">

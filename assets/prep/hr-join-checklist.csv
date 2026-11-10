@@ -1,0 +1,8 @@
+document_or_step,required_yn,kept_by_today
+Aadhaar,Y,HR folder
+PAN,Y,HR folder
+Bank details,Y,Excel
+Offer letter,Y,Word
+Photo,Y,HR folder
+Medical fitness,N,
+ID card issued,Y,Admin

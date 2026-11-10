@@ -10,9 +10,9 @@ The **Counsellor** screen is where patient decisions on doctor recommendations a
 4. Record **Accept** or **Decline** (refusal form when declining).
 5. Accepted items can become a **procedure course**; declined items stay documented.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — counsellor board with pending recommendations</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/care-counsellor.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/care-counsellor.png" alt="Counsellor board" />
+  <figcaption>Counsellor board: <strong>Accept</strong>, <strong>Defer</strong>, or <strong>Decline</strong> each pending recommendation. Defer and Decline need a reason.</figcaption>
 </figure>
 
 <div class="callout callout--tip">

@@ -7,9 +7,9 @@
 3. Link the HealthSetu user account when they should sign in.
 4. Complete onboarding checklists / document templates your HR uses.
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — employee detail</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/hr-employees.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/hr-employee-detail.png" alt="Employee record" />
+  <figcaption>Employee record tabs: Profile, Job, Salary, Leave, EPF/ESIC, Documents, Onboarding, Login details, Training &amp; CME, Termination, and more.</figcaption>
 </figure>
 
 <figure class="video-frame">

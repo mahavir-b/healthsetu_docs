@@ -13,9 +13,9 @@ CareSetu is the **outpatient clinic** module: patients, appointments, doctor OPD
 - Visit billing lines and print summaries
 - Desktop document sync inbox (where enabled)
 
-<figure class="media-frame">
-  <p><em>Screenshot placeholder — CareSetu dashboard</em></p>
-  <figcaption>Suggested: <code>assets/screenshots/care-dashboard.png</code></figcaption>
+<figure class="media-frame media-frame--image">
+  <img src="assets/screenshots/care-dashboard.png" alt="Clinic dashboard" />
+  <figcaption>Clinic dashboard: active patients, today’s appointments, patients in consultation, and amount collected today.</figcaption>
 </figure>
 
 <figure class="video-frame">
@@ -40,3 +40,4 @@ CareSetu is the **outpatient clinic** module: patients, appointments, doctor OPD
 4. <a href="#" data-hs-route="caresetu/procedures">Procedures & sittings</a>
 5. <a href="#" data-hs-route="caresetu/counsellor">Counsellor board</a>
 6. <a href="#" data-hs-route="caresetu/billing">Billing & print</a>
+7. <a href="#" data-hs-route="caresetu/setup">Clinic setup & reports</a> (admins)
