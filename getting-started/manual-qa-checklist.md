@@ -5,14 +5,15 @@ Walk this **in order**. Each section starts with **who to log in as**, then the 
 For a shorter go-live list, see <a href="#" data-hs-route="getting-started/admin-setup">Go-live checklist (admins)</a>.
 
 <div class="callout callout--tip">
-  <strong>Where to log in</strong><br/>
-  Platform admin: <code>http://localhost:5174/</code><br/>
-  Staff (every role below): <code>http://qaYYYYMMDD.localhost:5174/</code><br/>
-  Patient app: <code>http://qaYYYYMMDD.localhost:5181/</code><br/>
-  Never use standalone module ports (5173 / 5175 / 5176 / 5177 / 5179).
+  <strong>Where to log in (Azure)</strong><br/>
+  Platform admin: <code>https://admin.healthsetu.com/</code><br/>
+  Staff (every role below): <code>https://qaYYYYMMDD.healthsetu.com/</code><br/>
+  Patient app: <code>https://qaYYYYMMDD.patient.healthsetu.co.in/</code><br/>
+  Use only the Azure hosts above for this QA round.
 </div>
 
 **Replace `YYYYMMDD`** with today’s date (e.g. `20261122`).  
+After provision, tenant DNS should resolve to `https://qaYYYYMMDD.healthsetu.com/` (alias `*.healthsetu.co.in` is OK if that is what Azure DNS serves).  
 **Password for every QA staff user:** `QaTest@2026`  
 **Marking:** `[ ]` pending · `[x]` pass · `[!]` fail  
 
@@ -78,7 +79,7 @@ For a shorter go-live list, see <a href="#" data-hs-route="getting-started/admin
 
 ## Step 0 — Pre-flight (no login)
 
-- [ ] Core UI + API on **5174**; module UIs/APIs running for Care, Supply, Rakht, HR, Billing
+- [ ] Azure reachable: `https://admin.healthsetu.com/` sign-in works; tenant DNS for new org will be `https://qaYYYYMMDD.healthsetu.com/`
 - [ ] Open help site home: https://mahavir-b.github.io/healthsetu_docs/ — sidebar loads
 - [ ] Password ready: `QaTest@2026`
 
@@ -86,7 +87,7 @@ For a shorter go-live list, see <a href="#" data-hs-route="getting-started/admin
 
 ## Step A — Now log in as **Platform admin**
 
-**URL:** `http://localhost:5174/`  
+**URL:** `https://admin.healthsetu.com/`  
 **User:** your platform admin account  
 
 ### Create the org
@@ -132,7 +133,7 @@ For a shorter go-live list, see <a href="#" data-hs-route="getting-started/admin
 
 ## Step B — Now log in as **QA Org Admin**
 
-**URL:** `http://qaYYYYMMDD.localhost:5174/`  
+**URL:** `https://qaYYYYMMDD.healthsetu.com/`  
 **User:** `qa.admin@qaYYYYMMDD.test`  
 **Role:** `organization_admin`  
 **Password:** `QaTest@2026`
@@ -517,7 +518,7 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 
 ## Step AA — Now use the **Patient app** (not staff portal)
 
-**URL:** `http://qaYYYYMMDD.localhost:5181/`  
+**URL:** `https://qaYYYYMMDD.patient.healthsetu.co.in/`  
 **User:** phone `9876511111` (Test Patient One)
 
 - [ ] `/signin` → Home `/`
@@ -565,7 +566,7 @@ Log in as **QA Org Admin** again (`qa.admin@…`):
 - [ ] Dates show **DD/MM/YYYY** (patient DOB `15/03/1990`)
 - [ ] Lists: title + count · Refresh + Add on header
 - [ ] Destructive actions used ConfirmDialog (not `window.confirm`)
-- [ ] Never needed ports 5173/5175/5176/5177/5179 for staff work
+- [ ] All staff work stayed on `https://….healthsetu.com` (no localhost)
 
 ### Public token pages *(N/A unless you have a live token)*
 
