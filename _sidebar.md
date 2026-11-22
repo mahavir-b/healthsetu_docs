@@ -11,6 +11,7 @@
   * [Prep — SupplySetu](#/getting-started/prep/supplysetu)
   * [Prep — SwasthaSetu](#/getting-started/prep/swasthasetu)
   * [Go-live checklist (admins)](#/getting-started/admin-setup)
+  * [Full manual QA checklist](#/getting-started/manual-qa-checklist)
   * [FAQ & troubleshooting](#/getting-started/faq)
   * [Glossary](#/getting-started/glossary)
 

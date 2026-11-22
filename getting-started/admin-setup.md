@@ -71,3 +71,8 @@ See <a href="#" data-hs-route="swasthasetu/overview">SwasthaSetu overview</a>.
 - [ ] Each user signs in and changes their temporary password
 - [ ] Each user checks they see only their screens
 - [ ] Trainers walk staff through <a href="#" data-hs-route="getting-started/by-role">Guides by role</a>
+
+## 8. Full test round (optional)
+
+For a complete pass (new org → every role → every module happy path), use the
+<a href="#" data-hs-route="getting-started/manual-qa-checklist">Full manual QA checklist</a>.
