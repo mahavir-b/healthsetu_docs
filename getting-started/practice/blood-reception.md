@@ -1,38 +1,38 @@
 # Hands-on: Blood bank reception
 
-**Role:** `receptionist (blood)`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** blood bank reception login  
+**Role:** `receptionist`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 15 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
 - Register a donor
-- Open camps list
+- Open camps
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/donors` → **Add** a training donor (name, DOB, phone, blood group, weight)
-3. [ ] Open the donor detail
-4. [ ] `/camps` — open or browse a camp
-5. [ ] Hand the donor to counselling
-6. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Donors** → **Add**
+3. [ ] Fill name, DOB, phone, blood group, weight → **Save**
+4. [ ] Click the donor name to open the detail
+5. [ ] Left menu → **Camps** — open or **Add** a camp
+6. [ ] Tell counselling the donor is ready
+7. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/donors`
-- `/donors/new`
-- `/camps`
+- **Donors** → **Add** → **Save**
+- **Camps**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

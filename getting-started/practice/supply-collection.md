@@ -1,39 +1,37 @@
-# Hands-on: Collection (SupplySetu bags / session supplies)
+# Hands-on: Collection (bags / session supplies)
 
 **Role:** `collection`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 15 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Assign / update collection bags
-- Issue session supplies
-- Complete related tasks
+- Assign bags / session supplies
+- Complete tasks
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open inventory / bag-related screens your org uses for collection bags
-3. [ ] Assign or update a bag for a training session
-4. [ ] Complete an assigned task (`/staff-tasks`)
-5. [ ] Confirm catalog master edit is limited
+1. [ ] Sign in
+2. [ ] Open **Stock** or the bag/session screen your trainers show for collection bags
+3. [ ] Assign or update a bag for a training session → **Save**
+4. [ ] Left menu → **Tasks** — complete an assigned task
+5. [ ] Confirm catalog master **Add** is limited
 6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/inventory`
-- `/staff-tasks`
-- `/tasks`
+- **Stock** / bag actions → **Save**
+- **Tasks** → complete
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

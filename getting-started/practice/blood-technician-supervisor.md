@@ -1,43 +1,39 @@
 # Hands-on: Technician supervisor
 
 **Role:** `technician_supervisor`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Supervise separation / processing
-- Approve supervisor-level components
-- Oversee lab queue
+- Supervise processing approvals
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open pending supervisor components / processing queue
-3. [ ] Review a separation run prepared by a technician
-4. [ ] Approve supervisor step per SOP
-5. [ ] Open testing / QC dashboards for oversight
+1. [ ] Sign in
+2. [ ] Open the supervisor approval queue (under Processing / Approvals as labelled)
+3. [ ] Review a technician’s separation
+4. [ ] Click **Approve** for the supervisor step
+5. [ ] Open **QC dashboard** for oversight
 6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/blood-inventory/pending-supervisor-components`
-- `/workstation/separation`
-- `/dashboard/qc`
-- `/testing/pending`
+- Processing / supervisor approvals → **Approve**
+- **QC dashboard**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-<a href="#" data-hs-route="getting-started/practice/blood-technician">Technician</a> · <a href="#" data-hs-route="getting-started/practice/blood-doctor">Medical officer</a>
+<a href="#" data-hs-route="getting-started/practice/blood-doctor">Medical officer</a>
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>

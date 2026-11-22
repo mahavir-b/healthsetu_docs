@@ -1,38 +1,36 @@
 # Hands-on: OHC HR admin
 
 **Role:** `ohc_hr_admin`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Employee master for OHC
-- Pre-employment coordination
-- Reports
+- OHC employees
+- Pre-employment
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/ohc/employees` — open / add training employee if allowed
-3. [ ] `/ohc/pre-employment` · authorization queue
-4. [ ] Align with HR workplaces if both HR and Swastha are on
-5. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Employees** (OHC) → **Add** / open → **Save**
+3. [ ] Open **Pre-employment** and **PEM authorization**
+4. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/ohc/employees`
-- `/ohc/pre-employment`
-- `/ohc/pre-employment-authorization`
+- OHC **Employees**
+- **Pre-employment**
+- **PEM authorization**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

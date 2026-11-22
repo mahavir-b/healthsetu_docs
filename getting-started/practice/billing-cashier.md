@@ -1,41 +1,39 @@
 # Hands-on: Billing cashier
 
 **Role:** `billing_cashier`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** billing cashier login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 15 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Open cashier desk
-- Post a charge
+- Cashier desk
 - Collect payment
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open `/billing`
-3. [ ] Create / open a bill for a training patient
-4. [ ] Add a package or charge → collect Cash
-5. [ ] Open the bill detail if shown
+1. [ ] Sign in
+2. [ ] Left menu → **Cashier desk** (Billing)
+3. [ ] Click **New bill** / open a due episode for a training patient
+4. [ ] Add a package or charge → **Collect** → Cash
+5. [ ] Confirm paid status
 6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/billing`
-- `/billing/bills/:id`
+- **Cashier desk** → new / open bill → **Collect**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-<a href="#" data-hs-route="getting-started/practice/billing-admin">Billing admin</a>
+<a href="#" data-hs-route="getting-started/practice/billing-supervisor">Billing supervisor</a>
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>

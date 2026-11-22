@@ -1,48 +1,46 @@
 # Hands-on: My HR (every employee)
 
 **Role:** `hr_employee`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** your personal employee login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 10 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Check in
-- See leave and salary slips
-- Open your documents and shifts
+- Check-in
+- Leave & slips
+- My documents
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open **My day** (`/employee/me`)
-3. [ ] `/employee/checkin` — try check-in (location may need HTTPS permission)
-4. [ ] `/employee/leave` — view balance / apply a future day if allowed
-5. [ ] `/employee/salary` · `/employee/documents` · `/employee/attendance` · `/employee/shifts` · `/employee/holidays`
-6. [ ] Confirm you cannot open HR admin hire screens
+1. [ ] Sign in
+2. [ ] Left menu → **My day** (or Home self-service card)
+3. [ ] Open **Check in** — allow location if the browser asks → check in
+4. [ ] Open **Leave** — view balance; apply a future day if allowed → **Submit**
+5. [ ] Open **Salary slips**, **Documents**, **Attendance**, **My shifts**, **Holidays**
+6. [ ] Confirm you cannot open **Employees → Hire**
 7. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/employee/me`
-- `/employee/checkin`
-- `/employee/leave`
-- `/employee/salary`
-- `/employee/documents`
-- `/employee/attendance`
-- `/employee/shifts`
-- `/employee/holidays`
+- **My day**
+- **Check in**
+- **Leave**
+- **Salary slips**
+- **Documents**
+- **My shifts**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-Back to <a href="#" data-hs-route="getting-started/by-role">all roles</a>.
+<a href="#" data-hs-route="getting-started/by-role">All roles</a>
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>

@@ -1,42 +1,38 @@
 # Hands-on: Blood bank medical officer
 
-**Role:** `doctor (blood bank)`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Role:** `doctor`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 25 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Sign donor medical evaluation
-- Approve doctor-level components
-- Support crossmatch / request approval
+- Donor medical evaluation
+- Doctor component approval
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open a donor evaluation that needs medical officer sign-off
-3. [ ] Complete / sign the medical evaluation
-4. [ ] `/blood-inventory/pending-doctor-components` — approve selected components per SOP
-5. [ ] Open a request that needs doctor approval (`/requests`)
-6. [ ] Browse crossmatch / testing validate screens you are allowed
-7. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Donors** — open a donor needing medical evaluation
+3. [ ] Complete / **Sign** the medical evaluation
+4. [ ] Left menu → **Approvals** (doctor components) — tick rows → **Approve selected**
+5. [ ] Left menu → **Requests** — approve a request if pending
+6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/donors`
-- `/blood-inventory/pending-doctor-components`
-- `/requests`
-- `/crossmatch`
-- `/dashboard`
+- **Donors** → evaluation → **Sign**
+- **Approvals** → **Approve selected**
+- **Requests**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

@@ -1,45 +1,44 @@
 # Hands-on: Store keeper
 
 **Role:** `store_keeper`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** store keeper login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- See stock levels
-- Receive or move stock
-- Support department requests
+- See stock
+- Add or move stock
+- Use daily QC if shown
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open **Stock** (`/inventory`) — Refresh
-3. [ ] Find an item (e.g. Surgical gloves M)
-4. [ ] Add or adjust stock into **Main store** if trainers allow
-5. [ ] Open **Movement** (`/inventory/movement`) — move a small qty to OT store if stock exists
-6. [ ] Open **Daily QC** (`/daily-qc`) if your site uses it
-7. [ ] Confirm vendor / PO create is limited or hidden if you are not purchase
+1. [ ] Sign in
+2. [ ] Left menu → **Stock**
+3. [ ] Click **Refresh** — find an item (e.g. gloves)
+4. [ ] Click **Add** (or open a row → **Edit**) to receive stock into **Main store** → **Save**
+5. [ ] Left menu → **Inventory movement** — move a small quantity to another location → **Save**
+6. [ ] Left menu → **Daily QC** if your site uses it — complete one checklist
+7. [ ] Confirm **Vendors** / **Purchase orders** create may be limited for you
 8. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/inventory`
-- `/inventory/movement`
-- `/inventory/stock/new`
-- `/daily-qc`
+- Left menu → **Stock** → **Add** / row **Edit**
+- Left menu → **Inventory movement**
+- Left menu → **Daily QC**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-<a href="#" data-hs-route="getting-started/practice/supply-request">Requester</a> · <a href="#" data-hs-route="getting-started/practice/supply-admin">Supply admin</a>
+<a href="#" data-hs-route="getting-started/practice/supply-request">Requester</a>
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>

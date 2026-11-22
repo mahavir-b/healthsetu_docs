@@ -1,36 +1,34 @@
 # Hands-on: Phlebotomist
 
 **Role:** `phlebotomist`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** phlebotomist login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 15 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
 - Complete collection
-- Use donor station if your site uses it
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/collections` or `/workstation/donor`
-3. [ ] Complete collection for the counselled donor
-4. [ ] Confirm unit / bag moves to testing queue
+1. [ ] Sign in
+2. [ ] Left menu → **Collections** or **Donor station**
+3. [ ] Open the counselled donor
+4. [ ] Complete collection steps → **Save** / **Complete**
 5. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/collections`
-- `/workstation/donor`
+- **Collections** / **Donor station** → complete → **Save**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

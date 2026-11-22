@@ -1,40 +1,39 @@
 # Hands-on: Inventory supervisor
 
 **Role:** `inventory_supervisor`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Oversee stock and approvals
-- Supervise movements
+- Supervise approvals and movements
 - Review tasks
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/dashboard/inventory`
-3. [ ] `/inventory/approvals` — approve a request
-4. [ ] `/inventory/movement` — review a move
-5. [ ] `/staff-tasks` — assign or complete oversight tasks
+1. [ ] Sign in
+2. [ ] Left menu → **Inventory health** (dashboard)
+3. [ ] Left menu → **Approvals** → review / approve
+4. [ ] Left menu → **Inventory movement** — review a move
+5. [ ] Left menu → **Tasks** — open / complete an oversight task
 6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/dashboard/inventory`
-- `/inventory/approvals`
-- `/inventory/movement`
-- `/staff-tasks`
+- Left menu → **Inventory health**
+- **Approvals**
+- **Inventory movement**
+- **Tasks**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

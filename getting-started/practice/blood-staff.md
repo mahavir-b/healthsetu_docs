@@ -1,40 +1,37 @@
 # Hands-on: Blood bank / supply staff
 
 **Role:** `staff`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 15 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
 - View stock
-- Complete assigned tasks
-- Support donor / bag updates you are allowed
+- Complete tasks
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open stock / inventory views you can see (`/inventory` or blood inventory browse)
-3. [ ] Open **Tasks** (`/tasks` or `/staff-tasks`) — complete one assigned task if present
-4. [ ] Open a donor (view) if your role allows
-5. [ ] Confirm you cannot approve doctor-level processing
+1. [ ] Sign in
+2. [ ] Open **Stock** or blood inventory browse (read)
+3. [ ] Left menu → **Tasks** — open an assigned task → **Complete**
+4. [ ] Open a donor in view mode if allowed
+5. [ ] Confirm doctor **Approve** actions are not available
 6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/inventory`
-- `/tasks`
-- `/staff-tasks`
-- `/donors`
+- **Stock** / inventory browse
+- **Tasks** → **Complete**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

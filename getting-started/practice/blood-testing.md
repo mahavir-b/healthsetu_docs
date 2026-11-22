@@ -1,38 +1,38 @@
 # Hands-on: Testing specialist
 
 **Role:** `testing_specialist`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** testing login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Open testing queues
-- Enter results for a unit
+- Testing queues
+- Enter results
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/testing` (opens pending)
-3. [ ] Browse enter-results / completed / tti-panel paths
-4. [ ] Enter results for the collected unit (training values per lab SOP)
-5. [ ] `/workstation/lab` if your site uses batch entry
-6. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Testing**
+3. [ ] Open **Pending** (or the tab shown)
+4. [ ] Click a unit → **Enter results** (or **Add results**)
+5. [ ] Fill training results per lab SOP → **Save**
+6. [ ] Open **Lab batch entry** if your site uses batches
+7. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/testing/pending`
-- `/testing/enter-results`
-- `/workstation/lab`
+- **Testing** → pending row → enter results → **Save**
+- **Lab batch entry**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

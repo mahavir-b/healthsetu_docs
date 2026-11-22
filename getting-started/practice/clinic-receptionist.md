@@ -1,47 +1,45 @@
 # Hands-on: Reception / front desk
 
 **Role:** `clinic_receptionist`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** your reception login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Find or register an individual
-- Book an appointment with a doctor
-- Use waitlist if your clinic uses it
-- Hand the patient to nursing / doctor
+- Register or find a person
+- Book an appointment
+- Use waitlist if shown
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open **Individuals** (`/people`)
-3. [ ] Search for an existing person, or **Add** `Test Patient One` (DOB `15/03/1990`, phone `9876511111`)
-4. [ ] Open **Appointments** (`/clinic/appointments`)
-5. [ ] Book: that person · a doctor who has hours today · next free slot
-6. [ ] Open waitlist view (`/clinic/appointments?view=waitlist`) if used
-7. [ ] Confirm the doctor can see the booking (ask them, or switch to doctor login in a second browser)
-8. [ ] Confirm you **cannot** edit **Fee items** or clinic letterhead settings
+1. [ ] Sign in on the staff portal
+2. [ ] Left menu → **Individuals**
+3. [ ] Click **Add** (or search for an existing person)
+4. [ ] Fill name, date of birth, phone → **Save**
+5. [ ] Left menu → **Appointments**
+6. [ ] Click **Add** / **Book** → choose the person, a doctor, and a free slot → **Save**
+7. [ ] If your clinic uses waitlist: open the **Waitlist** tab or filter on the same Appointments screen
+8. [ ] Confirm **Fee items** and clinic letterhead settings are not available to you
 9. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/people`
-- `/people/new`
-- `/clinic/appointments`
-- `/clinic/appointments?view=waitlist`
+- Left menu → **Individuals** → header **Add**
+- Left menu → **Appointments** → **Add** / **Book**
+- Appointments → **Waitlist** view (if shown)
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-Next role in the visit: <a href="#" data-hs-route="getting-started/practice/clinic-nurse">Nurse</a> or <a href="#" data-hs-route="getting-started/practice/clinic-doctor">Doctor</a>.
+<a href="#" data-hs-route="getting-started/practice/clinic-nurse">Nurse</a> or <a href="#" data-hs-route="getting-started/practice/clinic-doctor">Doctor</a>
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>

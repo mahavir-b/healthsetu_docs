@@ -1,41 +1,39 @@
 # Hands-on: Billing admin
 
 **Role:** `billing_admin`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** billing admin login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Masters and packages
+- Masters
+- Packages
 - Settings
-- Day close oversight
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/billing/masters` · `/billing/packages` — confirm charges
-3. [ ] `/billing/settings` — review and Save if needed
-4. [ ] `/billing/accounts` · `/billing/reports` · `/billing/approvals` · `/billing/credit-notes`
-5. [ ] `/billing/day-close` — open; only close the day if trainers want a real close
+1. [ ] Sign in
+2. [ ] Left menu → **Charge master** — review / **Add** if needed → **Save**
+3. [ ] Left menu → **Packages** — open or add a package → **Save**
+4. [ ] Left menu → **Billing settings** → **Save**
+5. [ ] Open **Day close** and **Billing reports** once
 6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/billing/masters`
-- `/billing/packages`
-- `/billing/settings`
-- `/billing/day-close`
-- `/billing/reports`
+- **Charge master**
+- **Packages**
+- **Billing settings** → **Save**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

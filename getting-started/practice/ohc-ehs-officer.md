@@ -1,39 +1,36 @@
 # Hands-on: EHS officer
 
 **Role:** `ohc_ehs_officer`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 15 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Compliance checks
-- BMW / environment related screens
-- Reports
+- BMW
+- Site checks
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/ohc/biomedical-waste` · `/ohc/collection-agencies`
-3. [ ] Site check screens (canteen / plant) as assigned
-4. [ ] Reports / audit views available to EHS
-5. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Biomedical waste** and **Collection agencies**
+3. [ ] Open **Plant inspection** / **Canteen hygiene** as assigned → **Save**
+4. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/ohc/biomedical-waste`
-- `/ohc/collection-agencies`
-- `/ohc/plant-inspection`
-- `/ohc/canteen-hygiene`
+- **Biomedical waste**
+- **Collection agencies**
+- **Plant inspection**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

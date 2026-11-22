@@ -1,41 +1,42 @@
 # Hands-on: Supplies manager
 
 **Role:** `supplies_manager`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 25 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Manage supplies catalog usage
-- Vendors and procurement
-- QC and tasks
+- Catalog & stock
+- Vendors & POs
+- QC
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/inventory/catalog` · `/inventory` stock
-3. [ ] `/inventory/vendors` · `/inventory/purchase-orders`
-4. [ ] `/daily-qc` · `/admin/qc-checklist-templates` (if allowed)
-5. [ ] `/staff-tasks`
+1. [ ] Sign in
+2. [ ] Left menu → **Catalog** and **Stock** — review
+3. [ ] Left menu → **Vendors** and **Purchase orders**
+4. [ ] Left menu → **Daily QC** and **Daily QC templates**
+5. [ ] Left menu → **Tasks**
 6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/inventory/catalog`
-- `/inventory/vendors`
-- `/inventory/purchase-orders`
-- `/daily-qc`
-- `/staff-tasks`
+- **Catalog**
+- **Stock**
+- **Vendors**
+- **Purchase orders**
+- **Daily QC**
+- **Tasks**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

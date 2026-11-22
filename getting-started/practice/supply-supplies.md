@@ -1,42 +1,40 @@
 # Hands-on: Supplies role
 
 **Role:** `supplies`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Work stock and locations
-- Support vendors / procurement views
-- Run QC execute if assigned
+- Issue stock
+- Support vendors
+- Run QC
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/inventory` — view and issue stock
-3. [ ] `/inventory/locations` — confirm locations
-4. [ ] `/inventory/vendors` — open a vendor (manage if allowed)
-5. [ ] `/daily-qc` — execute a checklist if templates exist
-6. [ ] `/inventory/request` / approvals as allowed
-7. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Stock** — issue or adjust as allowed → **Save**
+3. [ ] Left menu → **Vendors** — open a vendor
+4. [ ] Left menu → **Daily QC** — run a checklist → complete items → **Save**
+5. [ ] Left menu → **Request inventory** if you raise requests
+6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/inventory`
-- `/inventory/locations`
-- `/inventory/vendors`
-- `/daily-qc`
-- `/inventory/request`
+- **Stock**
+- **Vendors**
+- **Daily QC**
+- **Request inventory**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

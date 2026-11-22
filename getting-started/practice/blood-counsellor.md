@@ -1,36 +1,35 @@
 # Hands-on: Blood bank counsellor
 
 **Role:** `counsellor`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** counsellor login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 15 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Complete counselling
-- Mark fit or defer
+- Counselling
+- Fit / defer
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open the donor registered by reception
-3. [ ] Complete counselling questionnaire / fit decision → **Fit to donate** (training)
-4. [ ] Confirm phlebotomy can collect
+1. [ ] Sign in
+2. [ ] Left menu → **Donors** — open the new donor (or **Donor station**)
+3. [ ] Complete counselling questions on screen
+4. [ ] Choose **Fit to donate** (training) → **Save**
 5. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/donors`
-- `/workstation/donor`
+- **Donors** or **Donor station** → counselling → **Save**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

@@ -1,41 +1,39 @@
 # Hands-on: HR payroll
 
 **Role:** `hr_payroll`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Open salary and statutory screens
-- Review a payroll run
-- Export / report as allowed
+- Salary & statutory
+- Open a run
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/salary` — open list / a run if one exists
-3. [ ] `/statutory` — review
-4. [ ] `/hr/reports` — open payroll-related report
-5. [ ] Confirm you typically cannot hire employees (HR admin does)
+1. [ ] Sign in
+2. [ ] Left menu → **Salary** — open the list; open a run if one exists
+3. [ ] Left menu → **Statutory** — review
+4. [ ] Left menu → **HR reports** — open a payroll report
+5. [ ] Confirm **Hire** is not available (or limited)
 6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/salary`
-- `/salary/runs/:id`
-- `/statutory`
-- `/hr/reports`
-- `/fnf`
+- **Salary**
+- **Statutory**
+- **HR reports**
+- **Full and Final** if shown
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

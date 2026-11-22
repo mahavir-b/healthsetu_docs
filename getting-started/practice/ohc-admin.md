@@ -1,43 +1,42 @@
-# Hands-on: OHC administrator (SwasthaSetu)
+# Hands-on: OHC administrator
 
 **Role:** `ohc_admin`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 30 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Open OHC dashboard
-- Employee / exam masters
-- Compliance and reports
+- OHC masters
+- Employees
+- Exams
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/` *(only if SWASTHA is enabled)*
-2. [ ] `/ohc` dashboard
-3. [ ] `/ohc/employees` · `/ohc/organization` · `/ohc/departments` · `/ohc/job-titles`
-4. [ ] `/ohc/medical-tests` · `/ohc/test-requirements`
-5. [ ] `/ohc/pre-employment` · `/ohc/opd` browse
-6. [ ] `/ohc/documents` · reports / calendar screens
+1. [ ] Sign in *(only if SwasthaSetu is enabled)*
+2. [ ] Left menu → **OHC dashboard**
+3. [ ] Open **Employees**, **Organization**, **Departments**, **Job titles** — **Add** / **Edit** as needed → **Save**
+4. [ ] Open **Medical tests** and **Test requirements**
+5. [ ] Open **Pre-employment** and **OPD register**
+6. [ ] Open **SOPs & documents**
 7. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/ohc`
-- `/ohc/employees`
-- `/ohc/organization`
-- `/ohc/medical-tests`
-- `/ohc/pre-employment`
-- `/ohc/opd`
+- **OHC dashboard**
+- **Employees** → **Add**
+- **Medical tests**
+- **Pre-employment**
+- **OPD register**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

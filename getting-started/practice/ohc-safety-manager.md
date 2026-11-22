@@ -1,39 +1,37 @@
 # Hands-on: Safety manager
 
 **Role:** `ohc_safety_manager`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Plant inspections
-- Incident / compliance follow-up
-- Safety reports
+- Plant inspection
+- Safety lists
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/ohc/plant-inspection` — open / complete a check
-3. [ ] `/ohc/first-aiders` · `/ohc/ambulances` browse
-4. [ ] Reports / monthly OHC work as available
+1. [ ] Sign in
+2. [ ] Left menu → **Plant inspection** — complete a check → **Save**
+3. [ ] Open **First aiders** and **Ambulances**
+4. [ ] Open **Monthly OHC work** if shown
 5. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/ohc/plant-inspection`
-- `/ohc/first-aiders`
-- `/ohc/ambulances`
-- `/ohc/monthly-ohc-work`
+- **Plant inspection**
+- **First aiders**
+- **Ambulances**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

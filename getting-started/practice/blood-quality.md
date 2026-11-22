@@ -1,41 +1,41 @@
 # Hands-on: Quality officer & issue
 
-**Role:** `quality_officer (and issue desk)`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** quality / issue login  
+**Role:** `quality_officer`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 25 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
 - Component QC
-- Create a request
-- Issue / crossmatch path
+- Request
+- Issue
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/blood-inventory/component-qc` — pass QC for a training component
-3. [ ] `/requests/new` — request from a training institution
-4. [ ] `/workstation/issue` or crossmatch path — complete issue steps per SOP
-5. [ ] `/dashboard/qc` · `/tasks` browse
-6. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Component QC** — pass QC for a training component → **Save**
+3. [ ] Left menu → **Requests** → **Add** — pick institution & details → **Save**
+4. [ ] Left menu → **New blood request** / issue workstation — complete issue steps per SOP
+5. [ ] Open **Crossmatch** if shown (may redirect to in-progress requests)
+6. [ ] Open **QC dashboard** and **Tasks**
+7. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/blood-inventory/component-qc`
-- `/requests`
-- `/workstation/issue`
-- `/crossmatch`
-- `/dashboard/qc`
+- **Component QC**
+- **Requests** → **Add**
+- **New blood request** / issue
+- **QC dashboard**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

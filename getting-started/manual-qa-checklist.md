@@ -11,7 +11,7 @@ For a shorter go-live list, see <a href="#" data-hs-route="getting-started/admin
   Platform admin: <code>https://admin.healthsetu.com/</code><br/>
   Staff (every role below): <code>https://qaYYYYMMDD.healthsetu.com/</code><br/>
   Patient app: <code>https://qaYYYYMMDD.patient.healthsetu.co.in/</code><br/>
-  Use only the Azure hosts above for this QA round.
+  Use only the Azure hosts above for this QA round.<br/><strong>How to navigate:</strong> use the <em>left menu</em> and on-screen buttons (Add, Edit, Save, Refresh, Approve). Do not type web paths.
 </div>
 
 **Replace `YYYYMMDD`** with today’s date (e.g. `20261122`).  
@@ -125,7 +125,7 @@ After provision, tenant DNS should resolve to `https://qaYYYYMMDD.healthsetu.com
 - [ ] **Customize functionality** → flags match modules
 - [ ] **Configuration** → review defaults
 - [ ] **ABDM** tab opens *(or N/A)*
-- [ ] Platform **Users** list `/users` opens · New user form loads
+- [ ] Platform left menu → **Users** — list opens · click **Add** / **New** — form loads
 
 ### Sign out of platform admin
 
@@ -143,41 +143,43 @@ After provision, tenant DNS should resolve to `https://qaYYYYMMDD.healthsetu.com
 ### Portal chrome
 
 - [ ] Home loads · branding shows `QA Campus`
-- [ ] Sidebar shows Care, Supply, Rakht, HR, Billing
-- [ ] Open `/inbox` · Refresh
-- [ ] Open `/user-preference` · Save one preference
-- [ ] Open `/insight/reports` · `/insight/clicks`
+- [ ] Left menu shows Care, Supply, Rakht, HR, Billing sections
+- [ ] Left menu → **Inbox** → click **Refresh**
+- [ ] Profile / account menu → **Preferences** → change one setting → **Save**
+- [ ] Left menu → **Insight** → open **Reports** and **Clicks**
 
-### Settings hub — open every page and Save/Continue where shown
+### Setup / Settings — open every page and Save/Continue where shown
 
-- [ ] `/settings/overview` · `/settings/get-ready` · `/settings/recommended` · `/settings/smart-setup` · `/settings/all-settings`
-- [ ] `/settings/organization` — confirm Ahmedabad / Gujarat / 380054
-- [ ] `/settings/workplaces` — create **MAIN** / Main Campus · Morning + Evening shifts
-- [ ] `/settings/inheritance` · `/settings/departments` — add Administration, Front Desk, Clinical, Laboratory, Counseling, Stores, Medical Office
-- [ ] `/settings/job-title` · `/settings/people` · `/settings/invite`
-- [ ] `/settings/documents` · `/settings/access-profiles` · `/settings/approvals`
-- [ ] `/settings/integrations` · `/settings/data-import` · `/settings/audit` · `/settings/template-updates` · `/settings/impact`
-- [ ] Patient care: `/settings/pc` · `pc-doctors` · `pc-appointments` · `pc-clinical` · `pc-portal`
-- [ ] Billing settings: `/settings/bl` · `bl-charges` · `bl-invoices` · `bl-payments`
-- [ ] Inventory settings: `/settings/inv` · `inv-catalog` · `inv-vendors` · `inv-assets`
-- [ ] Blood bank settings: `/settings/bb` · `bb-facility` · `bb-policies` · `bb-policy` · `bb-components` · `bb-storage`
-- [ ] HR settings: `/settings/hr` · `hr-employment` · `hr-leave` · `hr-docs` · `hr-time` · `hr-shifts` · `hr-eligibility` · `hr-holidays` · `hr-checkin` · `hr-payroll` · `hr-training`
-- [ ] Comms: `/settings/cm` · `cm-auto` · `cm-channels` · `cm-wa` · `cm-templates` · `cm-template` · `cm-prefs`
-- [ ] `/settings/dx` opens
+Left menu → **Setup** (or **Settings**). Work through the left settings rail:
+
+- [ ] **Setup overview** · **Get ready** · **Recommended setup** · **Smart setup** · **All settings**
+- [ ] **Organization details** — confirm Ahmedabad / Gujarat / 380054 → **Save** if you change anything
+- [ ] **Workplaces** — click **Add** → code **MAIN** / Main Campus · Morning + Evening shifts → **Save**
+- [ ] **Departments & job titles** — add Administration, Front Desk, Clinical, Laboratory, Counseling, Stores, Medical Office → **Save**
+- [ ] **People & access** · **Invite** — open each once
+- [ ] **Documents & branding** · **Access profiles** · **Approvals**
+- [ ] **Integrations** · **Data import** · **Audit history** · **Template updates** · impact / diagnostics if shown
+- [ ] Under services → **Patient care** and its sub-pages (doctors, appointments, clinical, portal)
+- [ ] **Billing** service settings (charges, invoices, payments)
+- [ ] **Inventory** service settings (catalog, vendors, assets)
+- [ ] **Blood bank** service settings (facility, policies, components, storage)
+- [ ] **HR** service settings (employment, leave, docs, time, shifts, holidays, check-in, payroll, training)
+- [ ] **Communications** service settings (auto, channels, WhatsApp, templates, prefs)
+- [ ] Open **Diagnostics** if shown
 
 ### Create every QA login user
 
-Go to `/system/organization?admin=users` → Add each from the login sheet (password `QaTest@2026`).
+Left menu → **Administration** (or **Organization**) → **Users** → click **Add** for each login on the sheet (password `QaTest@2026`).
 
 - [ ] All users from the login sheet created
-- [ ] Barcodes: `/system/organization?admin=barcodes` → mapping → designer
-- [ ] ID cards: `/system/organization?admin=id-cards` → designer · print sample for later employee
+- [ ] Same area → **Barcodes** → open a template → **Mapping** → tick fields → **Save** → open **Designer**
+- [ ] **ID cards** → open a version → designer · print a sample for a later employee
 
 ### Redirect sanity (stay logged in as admin)
 
-- [ ] `/setup` → settings overview
-- [ ] `/patients` and `/clinic/patients` → `/people`
-- [ ] `/account` → `/user-preference`
+- [ ] Opening **Setup** lands on **Setup overview**
+- [ ] Opening **Patients** (if still labelled that way) lands on **Individuals**
+- [ ] Opening **Account** lands on preferences
 
 ### Sign out
 
@@ -191,11 +193,11 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **Role:** `hr_admin`
 
 - [ ] Home loads · HR items visible · Care clinical write not available (or read-only)
-- [ ] `/hr/dashboard` · `/hr/reports` open
-- [ ] `/workplaces` → MAIN complete · holidays `26/01` Republic Day
-- [ ] `/departments` or workplace depts → roles attached per seed pack
-- [ ] `/shifts` → Morning + Evening
-- [ ] `/employees` → **Hire** each:
+- [ ] Left menu → **HR dashboard** · **HR reports** — both open
+- [ ] Left menu → **Workplaces** → open MAIN · holidays `26/01` Republic Day → **Save**
+- [ ] **Departments** (or workplace depts) → roles attached per seed pack
+- [ ] **Shifts** → Morning + Evening
+- [ ] Left menu → **Employees** → click **Hire** for each:
   - [ ] `Dr Anita Shah` · Clinical · clinic_doctor · GMC `G-12345` · **Active**
   - [ ] `Nurse Priya Mehta` · Clinical · clinic_nurse · Active
   - [ ] `Ravi Patel` · Front Desk · clinic_receptionist · Active
@@ -206,12 +208,12 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
   - [ ] `Phlebotomist Neha Rana` · Laboratory · phlebotomist · Active
   - [ ] `MO Dr Vikram Patel` · Medical Office · medical_director · GMC `G-67890` · Active
   - [ ] Extra: `Temp Staff One` · Front Desk · clinic_receptionist · Active
-- [ ] Open employee detail for Dr Anita Shah
-- [ ] `/onboarding` · `/training` · `/bgv` · `/salary` · `/statutory` · `/fnf` open
-- [ ] `/attendance` — mark Temp Staff One present today
-- [ ] `/leave` — list opens
-- [ ] `/employee-setup` hub tabs · `/document-library` · `/employee-files` · `/work-clearances` · `/holidays`
-- [ ] Assign Morning shift to Temp Staff One
+- [ ] Click **Dr Anita Shah** name (or pencil **Edit**) to open detail
+- [ ] Open **Onboarding**, **Training**, **BGV**, **Salary**, **Statutory**, **Full and Final** once each
+- [ ] Left menu → **Attendance** — mark Temp Staff One present today → **Save**
+- [ ] Left menu → **Leave** — list opens
+- [ ] Open **Employee setup**, **Document library**, **Employee files**, **Work clearances**, **Holidays**
+- [ ] Assign Morning shift to Temp Staff One → **Save**
 - [ ] Sign out
 
 ---
@@ -221,8 +223,8 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.hrmgr@qaYYYYMMDD.test`  
 **Role:** `hr_manager`
 
-- [ ] `/employees` list loads
-- [ ] `/leave` — approve a leave for Temp Staff One (create one if needed: 1 day next week)
+- [ ] Left menu → **Employees** — list loads
+- [ ] Left menu → **Leave** — open a leave for Temp Staff One (create one if needed: 1 day next week) → click **Approve**
 - [ ] Cannot open org Customize / platform tabs
 - [ ] Sign out
 
@@ -233,9 +235,9 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.payroll@qaYYYYMMDD.test`  
 **Role:** `hr_payroll`
 
-- [ ] `/salary` · `/statutory` · `/hr/reports` open
-- [ ] Open a salary run if one exists (`/salary/runs/:id`)
-- [ ] Cannot hire employees
+- [ ] Left menu → **Salary** · **Statutory** · **HR reports** — each opens
+- [ ] Open a salary run if one exists (click the run name)
+- [ ] Confirm **Hire** is not available
 - [ ] Sign out
 
 ---
@@ -245,9 +247,9 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.employee@qaYYYYMMDD.test`  
 **Role:** `hr_employee`
 
-- [ ] `/employee/me` (My day) loads
-- [ ] `/employee/checkin` · `/employee/leave` · `/employee/salary` · `/employee/documents`
-- [ ] `/employee/attendance` · `/employee/shifts` · `/employee/holidays` · `/employee/clearances` · `/employee/profile`
+- [ ] Left menu → **My day** — loads
+- [ ] Open **Check in**, **Leave**, **Salary slips**, **Documents**
+- [ ] Open **Attendance**, **My shifts**, **Holidays**, **Clearances**, **Profile**
 - [ ] No admin Settings / hire screens
 - [ ] Sign out
 
@@ -258,21 +260,21 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.supply@qaYYYYMMDD.test`  
 **Role:** `supply_admin`
 
-- [ ] `/dashboard/inventory` · `/reports` · `/staff-tasks` · `/daily-qc` open
-- [ ] `/inventory/locations` — Main store, OT store, Blood bank fridge room
-- [ ] `/inventory/catalog` — Add Surgical gloves M, Disposable syringe 5ml, HBsAg ELISA kit 96T
-- [ ] `/inventory/catalog/new` and edit gloves
-- [ ] `/inventory/custom-fields` · `/inventory/parameters` · `/inventory/vendor-checklist` (GST + Drug licence required)
-- [ ] `/inventory/vendors` — add MedSupply Gujarat · GSTIN `24AAAAA0000A1Z5`
-- [ ] `/inventory/stock/new` — gloves **50** · lot `LOT-GLOVE-01` · expiry `31/12/2027` → Main store
-- [ ] `/inventory` stock list shows gloves · edit stock row
-- [ ] `/inventory/assets` — add `BP Monitor QA-01` · open detail · `/inventory/assets/import` wizard opens
-- [ ] `/inventory/service-contracts` · `/inventory/asset-workflow-mapping` · `/inventory/reorder` · `/inventory/receive` · `/inventory/stock-intake` · `/inventory/movement`
-- [ ] `/inventory/purchase-orders/new` — MedSupply · gloves ×20 @ ₹180 · save draft · open detail
-- [ ] `/inventory/quotations/new` — form opens · list `/inventory/quotations`
-- [ ] `/inventory/vendor-returns/new` · `/admin/qc-checklist-templates` · `/inventory/checklists/new`
-- [ ] Hub tabs: `/inventory?tab=stock|checklists|qc|quotations|invoices|purchase-orders`
-- [ ] `/admin/supply-data-reset` — ConfirmDialog appears · **Cancel** (do not wipe)
+- [ ] Left menu → **Inventory health** · **Supply reports** · **Tasks** · **Daily QC** — each opens
+- [ ] **Set up SupplySetu** / locations — ensure Main store, OT store, Blood bank fridge room (click **Add** if missing) → **Save**
+- [ ] Left menu → **Catalog** → **Add** Surgical gloves M, Disposable syringe 5ml, HBsAg ELISA kit 96T → **Save**
+- [ ] Open gloves row → pencil **Edit** → **Save**
+- [ ] Open **Custom fields**, **Parameters**, **Vendor checklist** (GST + Drug licence required)
+- [ ] Left menu → **Vendors** → **Add** MedSupply Gujarat · GSTIN `24AAAAA0000A1Z5` → **Save**
+- [ ] Left menu → **Stock** → **Add** — gloves **50** · lot `LOT-GLOVE-01` · expiry `31/12/2027` → Main store → **Save**
+- [ ] Stock list shows gloves · pencil **Edit** a stock row
+- [ ] Left menu → **Assets** → **Add** `BP Monitor QA-01` → **Save** · open detail · try **Import** wizard
+- [ ] Open **Service contracts**, asset workflow mapping, reorder, receive, stock intake, **Inventory movement**
+- [ ] Left menu → **Purchase orders** → **Add** — MedSupply · gloves ×20 @ ₹180 → **Save** draft · open detail
+- [ ] **Quotations** → **Add** — form opens · list loads
+- [ ] Vendor returns → **Add** · **Daily QC templates** · checklists → **Add**
+- [ ] On Stock hub, click tabs: stock, checklists, QC, quotations, invoices, purchase orders
+- [ ] Left menu → **Delete data (Supply)** — confirm dialog appears → **Cancel** (do not wipe)
 - [ ] Sign out
 
 ---
@@ -282,8 +284,8 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.store@qaYYYYMMDD.test`  
 **Role:** `store_keeper`
 
-- [ ] `/inventory` — gloves stock visible · Refresh
-- [ ] Stock in/out or movement for gloves works
+- [ ] Left menu → **Stock** — gloves visible · click **Refresh**
+- [ ] Stock in/out or **Inventory movement** for gloves → **Save**
 - [ ] Limited or no vendor master edit (per capabilities)
 - [ ] Sign out
 
@@ -294,8 +296,8 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.request@qaYYYYMMDD.test`  
 **Role:** `request`
 
-- [ ] `/inventory/request` — request **5** boxes Surgical gloves M for OT store → Submit
-- [ ] Cannot approve own request (if policy forbids)
+- [ ] Left menu → **Request inventory** → **Add** — request **5** boxes Surgical gloves M for OT store → **Submit**
+- [ ] Cannot click **Approve** on your own request (if policy forbids)
 - [ ] Sign out
 
 ---
@@ -305,7 +307,7 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.invmgr@qaYYYYMMDD.test`  
 **Role:** `inventory_manager`
 
-- [ ] `/inventory/approvals` — **Approve** the gloves request
+- [ ] Left menu → **Approvals** — select the gloves request → **Approve**
 - [ ] Confirm movement / issue path Main store → OT store
 - [ ] Sign out
 
@@ -316,17 +318,17 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.clinicadmin@qaYYYYMMDD.test`  
 **Role:** `clinic_admin`
 
-- [ ] `/clinic` dashboard · `/clinic/settings` — name `QA Campus OPD` · reg `QA-CLINIC-001` · Save
-- [ ] Open each settings pane: `?pane=portal` · `integrations` · `clinic` · `clinical` · `money` · `roles` · `people` · `audit` · `merge`
-- [ ] `/clinic/doctors` — link **Dr Anita Shah**
-- [ ] Schedules — Mon–Sat 09:00–13:00 · 15 min · OPD-1
-- [ ] `/clinic/fee-items` — New consult ₹500 · Follow-up ₹300 · Dressing ₹200 · ECG ₹400
-- [ ] `/clinic/templates` — open one domain
-- [ ] `/clinic/procedures` · `/clinic/procedures/start` · `/clinic/procedures/book`
-- [ ] `/clinic/counsellor` · `/clinic/reports` · `/clinic/doctor-desk` · `/clinic/nursing` · `/clinic/lab`
-- [ ] `/clinic/token-display` · `/clinic/tv` · `/clinic/audit` · `/clinic/merge` (do not merge yet)
-- [ ] `/clinic/refills` · `/clinic/portal-requests` · `/clinic/billing` *(note if hidden when BILLING on)*
-- [ ] `/people` — Add **Test Patient One** (F, 15/03/1990, 9876511111) · Edit · open chart
+- [ ] Left menu → Care home / clinic dashboard · **Clinic settings** — name `QA Campus OPD` · reg `QA-CLINIC-001` → **Save**
+- [ ] In Clinic settings, open each section/tab: portal, integrations, clinic, clinical, money, roles, people, audit, merge
+- [ ] Left menu → **Doctors** — link **Dr Anita Shah** → **Save**
+- [ ] Set schedules — Mon–Sat 09:00–13:00 · 15 min · OPD-1 → **Save**
+- [ ] Left menu → **Fee items** — New consult ₹500 · Follow-up ₹300 · Dressing ₹200 · ECG ₹400 → **Save**
+- [ ] Left menu → **Department templates** — open one pack
+- [ ] Open **Procedures** → try **Start** / **Book** buttons (cancel if not running a real sitting)
+- [ ] Open **Recommendations**, **Reports**, **Doctor desk**, **Nursing station**, **Lab**
+- [ ] Open **Token display**, TV board, **Audit log**, **Merge duplicates** (do not merge yet)
+- [ ] Open **Refills**, **Portal requests**, **Billing** *(note if hidden when BILLING module is on)*
+- [ ] Left menu → **Individuals** → **Add** **Test Patient One** (F, 15/03/1990, 9876511111) → **Save** · pencil **Edit** · open chart
 - [ ] Chart tabs: summary, labs, procedures, billing, documents, details
 - [ ] Sign out
 
@@ -337,9 +339,9 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.reception@qaYYYYMMDD.test`  
 **Role:** `clinic_receptionist`
 
-- [ ] `/people` — find Test Patient One
-- [ ] `/clinic/appointments` — book Test Patient One · Dr Anita Shah · today/tomorrow 09:00
-- [ ] `/clinic/appointments?view=waitlist` opens
+- [ ] Left menu → **Individuals** — find Test Patient One
+- [ ] Left menu → **Appointments** → **Add** / **Book** — Test Patient One · Dr Anita Shah · today/tomorrow 09:00 → **Save**
+- [ ] On Appointments, open the **Waitlist** view / tab
 - [ ] Cannot edit fee masters / clinic settings
 - [ ] Sign out
 
@@ -350,8 +352,8 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.doctor@qaYYYYMMDD.test`  
 **Role:** `clinic_doctor`
 
-- [ ] `/clinic/opd` or `/clinic/doctor-desk` — open Test Patient One visit
-- [ ] Note: `URI — symptomatic care` · Rx: paracetamol 500 mg · Save
+- [ ] Left menu → **OPD** or **Doctor desk** — open Test Patient One visit
+- [ ] Note: `URI — symptomatic care` · Rx: paracetamol 500 mg → **Save**
 - [ ] Limited admin (no fee master edit)
 - [ ] Sign out
 
@@ -362,8 +364,8 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.nurse@qaYYYYMMDD.test`  
 **Role:** `clinic_nurse`
 
-- [ ] `/clinic/nursing` — open same visit
-- [ ] Vitals: BP `120/80` · pulse `78` · temp `98.6°F` · Save
+- [ ] Left menu → **Nursing station** — open same visit
+- [ ] Vitals: BP `120/80` · pulse `78` · temp `98.6°F` → **Save**
 - [ ] No fee master edit
 - [ ] Sign out
 
@@ -374,8 +376,8 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.cashier@qaYYYYMMDD.test`  
 **Role:** `clinic_cashier`
 
-- [ ] `/clinic/billing` (or billing desk if Care billing hidden) — charge New consultation ₹500 (+ Dressing ₹200 if done)
-- [ ] Mark paid **Cash**
+- [ ] Left menu → **Billing** (or **Cashier desk**) — charge New consultation ₹500 (+ Dressing ₹200 if done)
+- [ ] Click **Mark paid** / **Collect** → **Cash**
 - [ ] Cannot edit doctor schedules
 - [ ] Sign out
 
@@ -386,18 +388,18 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.meddir@qaYYYYMMDD.test`  
 **Role:** `medical_director`
 
-- [ ] `/dashboard` · `/dashboard/qc` · `/dashboard/compliance` open
-- [ ] Open each dashboard variant you use: hospital-blood, executive, camps, donors-analytics, lab, blood-inventory, crossmatch, requests
-- [ ] `/hospitals` — add **City General Hospital** · Dr Patel · `9876533333`
-- [ ] `/partner-blood-banks` opens
-- [ ] `/admin/equipment-configuration` — `ELISA Reader 1`
-- [ ] `/admin/workflows` — open donor questionnaire · approve if required
-- [ ] `/admin/workflows/:key` detail opens
-- [ ] `/dashboard/lab/elisa` opens
-- [ ] Blood label barcode sample print (tenant barcodes)
-- [ ] `/admin/blood-data-reset` — ConfirmDialog · **Cancel**
-- [ ] `/camps` — create `QA Weekend Camp` · tomorrow · MAIN lawn · open detail
-- [ ] `/support` opens
+- [ ] Left menu → **RakhtSetu dashboard** · **QC dashboard** · **Audit and compliance** — each opens
+- [ ] Open other dashboard views available (camps, donors, lab, inventory, requests) once each
+- [ ] Left menu → **Institutions** → **Add** **City General Hospital** · Dr Patel · `9876533333` → **Save**
+- [ ] Open partner blood banks if shown
+- [ ] Left menu → **Equipment configuration** — `ELISA Reader 1` → **Save**
+- [ ] Left menu → **Workflows** — open donor questionnaire · **Approve** if you are the approver
+- [ ] Open a workflow detail by clicking the row
+- [ ] Open lab ELISA dashboard if shown
+- [ ] Print a sample blood label from **Barcodes** (Settings / Administration)
+- [ ] Left menu → **Delete data (RakhtSetu)** — confirm dialog → **Cancel**
+- [ ] Left menu → **Camps** → **Add** `QA Weekend Camp` · tomorrow · MAIN lawn → **Save** · open detail
+- [ ] Open **Support** if shown
 - [ ] Sign out
 
 ---
@@ -407,8 +409,8 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.bbreception@qaYYYYMMDD.test`  
 **Role:** `receptionist` (blood)
 
-- [ ] `/donors` · `/donors/new` — register **Donor Ramesh Kumar** (O+, 72 kg, 9876544444, DOB 10/05/1988)
-- [ ] Open donor detail
+- [ ] Left menu → **Donors** → **Add** — register **Donor Ramesh Kumar** (O+, 72 kg, 9876544444, DOB 10/05/1988) → **Save**
+- [ ] Click the donor name to open detail
 - [ ] Sign out
 
 ---
@@ -428,7 +430,7 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.phlebo@qaYYYYMMDD.test`  
 **Role:** `phlebotomist`
 
-- [ ] `/collections` or `/workstation/donor` — complete collection for Ramesh
+- [ ] Left menu → **Collections** or **Donor station** — complete collection for Ramesh → **Save** / **Complete**
 - [ ] Sign out
 
 ---
@@ -438,9 +440,9 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.testing@qaYYYYMMDD.test`  
 **Role:** `testing_specialist`
 
-- [ ] `/testing` → pending · enter/add results · completed · tti-panel paths open
-- [ ] `/workstation/lab` opens
-- [ ] Complete testing for the unit
+- [ ] Left menu → **Testing** → open **Pending** · click a unit → **Enter results** / **Add results** · check Completed / TTI panel views
+- [ ] Left menu → **Lab batch entry** opens
+- [ ] Complete testing for the unit → **Save**
 - [ ] Sign out
 
 ---
@@ -450,9 +452,9 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.tech@qaYYYYMMDD.test`  
 **Role:** `technician`
 
-- [ ] `/blood-inventory/pending-separation` · `/workstation/separation` · triple-bag workspace
-- [ ] Open each blood inventory tab once (pending-separation, components, discarded, autoclave-waste, …)
-- [ ] Complete separation / processing for the unit
+- [ ] Left menu → **Processing** · **Separation batch** · triple-bag workspace
+- [ ] Open each blood inventory view once (pending separation, components, discarded, autoclave waste, …)
+- [ ] Complete separation / processing for the unit → **Save**
 - [ ] Sign out
 
 ---
@@ -462,11 +464,11 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.qo@qaYYYYMMDD.test`  
 **Role:** `quality_officer`
 
-- [ ] `/blood-inventory/component-qc` — pass QC
-- [ ] `/blood-inventory/pending-doctor-components` · `/dashboard/qc` · `/tasks`
-- [ ] `/crossmatch` (redirects OK) · `/requests` · `/requests/new` — request from City General · patient `CGH Bed 12`
-- [ ] `/workstation/issue` — issue path
-- [ ] `/add-bag` form opens
+- [ ] Left menu → **Component QC** — pass QC → **Save**
+- [ ] Open **Approvals** (doctor components), **QC dashboard**, **Tasks**
+- [ ] Open **Crossmatch** (redirects OK) · **Requests** → **Add** — City General · patient `CGH Bed 12` → **Save**
+- [ ] Left menu → **New blood request** / issue workstation — complete issue path
+- [ ] Open **Add bag** form if shown
 - [ ] Print bag/component label
 - [ ] Sign out
 
@@ -478,9 +480,9 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **Role:** `billing_admin`  
 *(Skip W–Z if BILLING not enabled)*
 
-- [ ] `/billing` · `/billing/masters` · `/billing/packages` — create `OPD day package` ₹800
-- [ ] `/billing/settings` · Save
-- [ ] `/billing/accounts` · `/billing/reports` open
+- [ ] Left menu → **Cashier desk** / Billing home · **Charge master** · **Packages** — create `OPD day package` ₹800 → **Save**
+- [ ] Left menu → **Billing settings** → **Save**
+- [ ] Open **Accounts** · **Billing reports**
 - [ ] Sign out
 
 ---
@@ -490,8 +492,8 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.billcash@qaYYYYMMDD.test`  
 **Role:** `billing_cashier`
 
-- [ ] `/billing` — charge Test Patient One · OPD day package ₹800 · collect Cash
-- [ ] Open bill composer `/billing/bills/:id` if shown
+- [ ] Left menu → **Cashier desk** — charge Test Patient One · OPD day package ₹800 → **Collect** → Cash
+- [ ] Open the bill (row click) if a composer opens
 - [ ] Sign out
 
 ---
@@ -501,9 +503,9 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.billsup@qaYYYYMMDD.test`  
 **Role:** `billing_supervisor`
 
-- [ ] `/billing/approvals` · `/billing/credit-notes` · `/billing/refunds`
+- [ ] Left menu → Billing **Approvals** · **Credit & refunds**
 - [ ] Optional ₹100 credit-note path
-- [ ] `/billing/day-close` — run day close (or open and Cancel if not closing for real)
+- [ ] Left menu → **Day close** — run day close (or open and **Cancel** if not closing for real)
 - [ ] Sign out
 
 ---
@@ -513,7 +515,7 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **User:** `qa.billacct@qaYYYYMMDD.test`  
 **Role:** `billing_accountant`
 
-- [ ] `/billing/reports` · `/billing/accounts` · open one account
+- [ ] Left menu → **Billing reports** · **Accounts** — open one account (row click)
 - [ ] Sign out
 
 ---
@@ -523,29 +525,29 @@ Go to `/system/organization?admin=users` → Add each from the login sheet (pass
 **URL:** `https://qaYYYYMMDD.patient.healthsetu.co.in/`  
 **User:** phone `9876511111` (Test Patient One)
 
-- [ ] `/signin` → Home `/`
-- [ ] `/visits` · `/book` — book tomorrow · Dr Anita Shah
-- [ ] `/records` · `/medicines` · `/bills` · `/profile`
-- [ ] `/notifications` · `/messages` · `/more`
-- [ ] `/privacy` · `/security` · `/account` · `/abha` · `/services` · `/services/emergency`
+- [ ] Sign in → Home
+- [ ] Open **Visits** · **Book** — book tomorrow · Dr Anita Shah → confirm
+- [ ] Open **Records**, **Medicines**, **Bills**, **Profile**
+- [ ] Open **Notifications**, **Messages**, **More**
+- [ ] Open **Privacy**, **Security**, **Account**, **ABHA**, **Services**, **Emergency**
 
 ### Then log in again as **QA Clinic Admin**
 
 **User:** `qa.clinicadmin@qaYYYYMMDD.test`
 
-- [ ] `/clinic/portal-requests` — see the booking · update status
+- [ ] Left menu → **Portal requests** — see the booking · update status → **Save**
 - [ ] Sign out
 
 ---
 
 ## Step AB — Optional: Swastha screens
 
-Only if `SWASTHA` is enabled. Log in as org admin (or OHC admin) and open every `/ohc/*` path once:
+Only if `SWASTHA` is enabled. Log in as org admin (or OHC admin) and open every left-menu OHC item once:
 
-- [ ] `/ohc` · employees · pre-employment · pre-employment-authorization · opd · periodic-medical · audiometry · health-checkup · vaccination
-- [ ] first-aiders · ambulances · ambulance · first-aid-box · canteen-hygiene · plant-inspection
-- [ ] collection-agencies · biomedical-waste · monthly-ohc-work · yearly-calendar · daily-report
-- [ ] organization · departments · job-titles · medical-tests · test-requirements · documents
+- [ ] **OHC dashboard** · **Employees** · **Pre-employment** · **PEM authorization** · **OPD register** · **Periodic medical** · **Audiometry** · health checkup · **Vaccination**
+- [ ] **First aiders** · **Ambulances** · ambulance detail · **First aid box** · **Canteen hygiene** · **Plant inspection**
+- [ ] **Collection agencies** · **Biomedical waste** · **Monthly OHC work** · yearly calendar · daily report
+- [ ] Organization · departments · job titles · **Medical tests** · **Test requirements** · **SOPs & documents**
 
 ---
 
@@ -572,9 +574,11 @@ Log in as **QA Org Admin** again (`qa.admin@…`):
 
 ### Public token pages *(N/A unless you have a live token)*
 
-- [ ] `/vendor/onboarding/:token` · `/employee/onboarding/:token` · `/employee/offer-sign/:token`
-- [ ] `/quotation/vendor/:token` · `/purchase-order/vendor/:token` · `/purchase-order/confirmed/:token`
-- [ ] `/camp-organizer-approval/:token` · `/camp-feedback/:token` · `/pre-employment/sign/:token` · `/forms/:token`
+Open the emailed / SMS link (do not type a path):
+
+- [ ] Vendor onboarding · Employee onboarding · Offer sign
+- [ ] Vendor quotation · Vendor purchase order · PO confirmed
+- [ ] Camp organizer approval · Camp feedback · Pre-employment sign · Public form
 
 ---
 

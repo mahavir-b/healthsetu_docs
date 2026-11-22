@@ -1,45 +1,43 @@
 # Hands-on: Procedure technician
 
 **Role:** `clinic_procedure_tech`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Run sittings
-- Record parameters and photos
-- Complete a procedure course step
+- Run a sitting
+- Enter parameters
+- Capture photos if used
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open **Procedures** (`/clinic/procedures`)
-3. [ ] Open or start a sitting (`/clinic/procedures/start` or book sitting)
-4. [ ] Record parameters for the sitting
-5. [ ] Capture photos if your clinic uses photo capture
-6. [ ] Complete / save the sitting
-7. [ ] Confirm doctor co-sign is required only if your clinic setting says so
+1. [ ] Sign in
+2. [ ] Left menu → **Procedures**
+3. [ ] Click **Start** / **Book sitting** (whichever your screen shows)
+4. [ ] Select the patient and procedure → continue
+5. [ ] Enter sitting parameters → **Save**
+6. [ ] Add photos if the **Upload** / camera control is shown
+7. [ ] Complete the sitting
 8. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/clinic/procedures`
-- `/clinic/procedures/start`
-- `/clinic/procedures/book`
-- `/clinic/procedures/sittings/:id`
+- Left menu → **Procedures** → **Start** / **Book**
+- Sitting screen → **Save** / complete
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-<a href="#" data-hs-route="getting-started/practice/clinic-counsellor">Clinic counsellor</a> · <a href="#" data-hs-route="getting-started/practice/clinic-doctor">Doctor</a>
+<a href="#" data-hs-route="getting-started/practice/clinic-counsellor">Clinic counsellor</a>
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>

@@ -1,40 +1,40 @@
 # Hands-on: Platform admin (HealthSetu staff)
 
-**Role:** `admin (platform) / tenant slug admin`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Role:** `admin (platform)`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** platform admin on admin.healthsetu.com  
 **Time:** about 30–45 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Create or open an organisation on Azure
-- Import roles and invite the first org admin
-- Configure branding, email, and module flags
+- Organizations
+- Provision READY
+- Invite org admin
 
 ## Step by step
 
 1. [ ] Sign in at `https://admin.healthsetu.com/`
-2. [ ] `/organizations` — open an org (or create a training org)
-3. [ ] Provisioning → confirm **READY**
-4. [ ] Roles → import recommended roles
-5. [ ] Users → ensure an `organization_admin` exists
-6. [ ] Branding · Email · Payment · Communications · Barcodes · Customize — open each tab
-7. [ ] Sign out · continue as org admin on `https://{code}.healthsetu.com/`
+2. [ ] Open **Organizations** in the left menu
+3. [ ] Click **Create** / **Add** — fill profile → **Save** (or open an existing training org)
+4. [ ] Open the **Provisioning** tab — wait until **READY**; use **Apply DB** if shown
+5. [ ] Open the **Roles** tab → **Import recommended roles**
+6. [ ] Open the **Users** tab → **Add** an organisation admin → **Save**
+7. [ ] Open **Branding**, **Email server**, **Payment QR**, **Communications**, **Barcodes**, **Customize** — save where needed
+8. [ ] Sign out · continue as that org admin on the tenant portal
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/organizations`
-- `/organizations/:id`
-- `/users`
+- Platform → **Organizations** → **Create**
+- Org detail tabs: **Provisioning**, **Roles**, **Users**, **Branding**, …
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

@@ -1,40 +1,38 @@
 # Hands-on: Billing supervisor
 
 **Role:** `billing_supervisor`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Approve refunds / discounts
-- Supervise cash
-- Day-close assist
+- Approvals
+- Credit notes
+- Day close
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/billing/approvals` — act on a pending item (or open empty queue)
-3. [ ] `/billing/credit-notes` · `/billing/refunds`
-4. [ ] `/billing/day-close` — open; close only if trainers want a real close
-5. [ ] `/billing` desk — price override / void only as SOP allows
-6. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Approvals** (Billing) — act on a pending item
+3. [ ] Open **Credit & refunds**
+4. [ ] Open **Day close** — review; close only if trainers want a real close
+5. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/billing/approvals`
-- `/billing/credit-notes`
-- `/billing/day-close`
-- `/billing`
+- Billing → **Approvals**
+- **Credit & refunds**
+- **Day close**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

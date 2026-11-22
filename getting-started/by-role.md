@@ -9,7 +9,8 @@ Every **recommended role slug** from HealthSetu import has a path below (skip mo
   Staff portal: <code>https://{your-org}.healthsetu.com/</code><br/>
   Platform admin: <code>https://admin.healthsetu.com/</code><br/>
   Patient app: <code>https://{your-org}.patient.healthsetu.co.in/</code><br/>
-  Ask your admin for your login. Prefer a training org — not live production data.
+  Ask your admin for your login. Prefer a training org — not live production data.<br/>
+  Steps use the <strong>left menu</strong> and buttons (Add, Edit, Save) — you do not type web addresses.
 </div>
 
 ## CareSetu (clinic)

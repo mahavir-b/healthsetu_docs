@@ -1,40 +1,40 @@
 # Hands-on: Blood bank technician
 
 **Role:** `technician`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** technician login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Work separation / processing
-- Browse blood inventory tabs
+- Separation / processing
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/blood-inventory/pending-separation`
-3. [ ] `/workstation/separation` — process a unit per training SOP
-4. [ ] Open components / discarded tabs once so you know where stock lives
-5. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Processing**
+3. [ ] Open a unit waiting for separation
+4. [ ] Left menu → **Separation batch** if that is how your site works — complete steps → **Save**
+5. [ ] Browse **Component** lists under blood inventory as shown in the menu
+6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/blood-inventory/pending-separation`
-- `/workstation/separation`
-- `/blood-inventory/components`
+- **Processing**
+- **Separation batch**
+- Blood inventory component lists
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-<a href="#" data-hs-route="getting-started/practice/blood-quality">Quality / issue</a>
+<a href="#" data-hs-route="getting-started/practice/blood-quality">Quality officer</a>
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>

@@ -1,39 +1,37 @@
 # Hands-on: Billing accountant
 
 **Role:** `billing_accountant`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 15 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Reports and exports
-- Credit notes
-- Account review
+- Reports
+- Accounts
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/billing/reports` — open and export if allowed
-3. [ ] `/billing/accounts` — open an account
-4. [ ] `/billing/credit-notes` — review
-5. [ ] Confirm day-to-day cashier posting may be limited vs cashier role
-6. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Billing reports** — open one → export if shown
+3. [ ] Left menu → **Accounts** — open an account row
+4. [ ] Open **Credit & refunds** — review
+5. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/billing/reports`
-- `/billing/accounts`
-- `/billing/credit-notes`
+- **Billing reports**
+- **Accounts**
+- **Credit & refunds**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

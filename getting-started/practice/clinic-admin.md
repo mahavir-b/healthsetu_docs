@@ -1,54 +1,49 @@
 # Hands-on: Clinic admin
 
 **Role:** `clinic_admin`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** clinic admin login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 30–40 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Set clinic letterhead
-- Link doctors and publish schedules
-- Maintain fee items and templates
-- Open clinical admin tools (audit, merge — carefully)
+- Clinic letterhead
+- Doctors & schedules
+- Fees & templates
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/clinic/settings` — set clinic name, address, registration number → Save
-3. [ ] Open settings panes: portal, integrations, clinical, money (browse each)
-4. [ ] `/clinic/doctors` — link an active HR doctor employee
-5. [ ] Publish schedule (e.g. Mon–Sat 09:00–13:00)
-6. [ ] `/clinic/fee-items` — confirm consult fees exist
-7. [ ] `/clinic/templates` — open one specialty pack
-8. [ ] `/clinic/procedures` · `/clinic/reports` · `/clinic/audit` open
-9. [ ] `/clinic/merge` — open only; do not merge real patients unless instructed
-10. [ ] `/people` — confirm Individuals list works
-11. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Clinic settings**
+3. [ ] Fill clinic name, address, registration number → **Save**
+4. [ ] Open each settings section/tab shown (portal, integrations, clinical, money) and review
+5. [ ] Left menu → **Doctors** → link or edit an active doctor → **Save**
+6. [ ] On the same Doctors area, set weekly hours (e.g. Mon–Sat mornings) → **Save**
+7. [ ] Left menu → **Fee items** → confirm consult fees → **Edit** / **Save** if needed
+8. [ ] Left menu → **Department templates** — open one pack
+9. [ ] Left menu → **Procedures**, **Reports**, **Audit log** — open each once
+10. [ ] **Merge duplicates** — open only; do not merge real people unless instructed
+11. [ ] Left menu → **Individuals** — confirm the list works
+12. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/clinic/settings`
-- `/clinic/doctors`
-- `/clinic/fee-items`
-- `/clinic/templates`
-- `/clinic/procedures`
-- `/clinic/reports`
-- `/clinic/audit`
-- `/clinic/merge`
-- `/people`
+- Left menu → **Clinic settings** → **Save**
+- Left menu → **Doctors** → **Edit** / schedule → **Save**
+- Left menu → **Fee items** → **Edit**
+- Left menu → **Department templates**, **Procedures**, **Reports**, **Audit log**, **Merge duplicates**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-Org-wide setup: <a href="#" data-hs-route="getting-started/practice/org-admin">Organisation admin</a>.
+<a href="#" data-hs-route="getting-started/practice/org-admin">Organisation admin</a>
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>

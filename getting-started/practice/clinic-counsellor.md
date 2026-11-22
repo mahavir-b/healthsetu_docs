@@ -1,41 +1,39 @@
 # Hands-on: Clinic counsellor
 
 **Role:** `clinic_counsellor`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Work the counsellor board
-- Record recommendations and consent
-- Book follow-up / procedures
+- Counsellor board
+- Recommendation / consent
+- Book follow-up
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open **Counsellor** (`/clinic/counsellor`)
-3. [ ] Open a recommendation / patient on the board
-4. [ ] Record decision / consent as your clinic process requires
-5. [ ] Book or plan a procedure sitting if needed (`/clinic/procedures`)
-6. [ ] Confirm billing status view works if shown
-7. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Recommendations** (counsellor board)
+3. [ ] Open a patient / recommendation card
+4. [ ] Record decision or consent using the on-screen actions → **Save**
+5. [ ] If needed, open **Procedures** or **Appointments** and book the next step → **Save**
+6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/clinic/counsellor`
-- `/clinic/procedures`
-- `/clinic/appointments`
-- `/people`
+- Left menu → **Recommendations**
+- Card → decision / consent → **Save**
+- Left menu → **Appointments** or **Procedures**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

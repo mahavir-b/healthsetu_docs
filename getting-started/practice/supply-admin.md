@@ -1,50 +1,46 @@
 # Hands-on: Supply / inventory admin
 
-**Role:** `supply_admin / inventory_manager`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** supply admin login  
+**Role:** `supply_admin`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 35 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Maintain locations, catalog, vendors
-- Approve requests and raise a PO
-- Browse assets and QC templates
+- Locations, catalog, vendors
+- Approvals & PO
+- Assets
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/inventory/locations` — confirm Main store (and others)
-3. [ ] `/inventory/catalog` — open or add a consumable
-4. [ ] `/inventory/vendors` — open a vendor
-5. [ ] `/inventory/approvals` — approve a pending request
-6. [ ] `/inventory/purchase-orders/new` — draft a small PO → Save
-7. [ ] `/inventory/assets` — open or add one asset
-8. [ ] `/inventory/quotations` · `/admin/qc-checklist-templates` · `/staff-tasks` browse
-9. [ ] Do **not** run Supply data reset unless trainers say so
+1. [ ] Sign in
+2. [ ] Left menu → **Set up SupplySetu** or open **Setup** → Inventory service pages — confirm locations exist (or add **Main store**)
+3. [ ] Left menu → **Catalog** → **Add** an item if needed → **Save**
+4. [ ] Left menu → **Vendors** → **Add** or open a vendor → **Save**
+5. [ ] Left menu → **Approvals** → select a request → **Approve**
+6. [ ] Left menu → **Purchase orders** → **Add** → pick vendor & lines → **Save** draft
+7. [ ] Left menu → **Assets** → **Add** one asset → **Save**
+8. [ ] Open **Quotations**, **Tasks**, **Daily QC templates** once each
+9. [ ] Do **not** use **Delete data (Supply)** unless trainers say so
 10. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/inventory/locations`
-- `/inventory/catalog`
-- `/inventory/vendors`
-- `/inventory/approvals`
-- `/inventory/purchase-orders`
-- `/inventory/assets`
-- `/dashboard/inventory`
+- Left menu → **Catalog** / **Vendors** / **Stock** / **Assets** → **Add**
+- Left menu → **Approvals** → **Approve**
+- Left menu → **Purchase orders** → **Add** → **Save**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-Store day-to-day: <a href="#" data-hs-route="getting-started/practice/store-keeper">Store keeper</a>.
+<a href="#" data-hs-route="getting-started/practice/store-keeper">Store keeper</a>
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>

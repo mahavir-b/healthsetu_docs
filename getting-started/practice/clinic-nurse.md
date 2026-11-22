@@ -1,44 +1,42 @@
 # Hands-on: Nurse
 
 **Role:** `clinic_nurse`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** your nurse login  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 15 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Open the nursing station
-- Record vitals for a visit
-- Hand off to the doctor
+- Open nursing station
+- Enter vitals
+- Hand off to doctor
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Ask reception to book a patient if none is waiting
-3. [ ] Open **Nursing** (`/clinic/nursing`)
-4. [ ] Open the patient’s visit
-5. [ ] Enter vitals, e.g. BP `120/80`, pulse `78`, temp `98.6°F` → Save
-6. [ ] Confirm doctor can open the same visit with vitals visible
-7. [ ] Confirm you cannot edit fee masters
-8. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Nursing station** (or **Nursing**)
+3. [ ] Open the patient who has an appointment today
+4. [ ] Enter vitals (e.g. BP 120/80, pulse 78, temp 98.6°F) → **Save**
+5. [ ] Confirm the doctor can open the same visit and see vitals
+6. [ ] Confirm you cannot edit **Fee items**
+7. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/clinic/nursing`
-- `/clinic/opd (if shared)`
-- `/clinic/patients/person/:id`
+- Left menu → **Nursing station**
+- Visit card → vitals → **Save**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-<a href="#" data-hs-route="getting-started/practice/clinic-doctor">Doctor hands-on</a>
+<a href="#" data-hs-route="getting-started/practice/clinic-doctor">Doctor</a>
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>

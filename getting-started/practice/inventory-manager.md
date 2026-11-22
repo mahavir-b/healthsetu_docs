@@ -1,40 +1,38 @@
 # Hands-on: Inventory manager
 
 **Role:** `inventory_manager`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 25 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
 - Approve requests
 - Oversee POs and stock
-- Manage day-to-day inventory ops
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] `/inventory/approvals` — approve pending
-3. [ ] `/inventory/purchase-orders` — open a draft / create if allowed
-4. [ ] `/inventory` — stock health check
-5. [ ] `/inventory/assets` — browse assets
+1. [ ] Sign in
+2. [ ] Left menu → **Approvals** → **Approve** a pending request
+3. [ ] Left menu → **Purchase orders** — open a draft or click **Add**
+4. [ ] Left menu → **Stock** — check levels (**Refresh**)
+5. [ ] Left menu → **Assets** — open one row
 6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/inventory/approvals`
-- `/inventory/purchase-orders`
-- `/inventory`
-- `/inventory/assets`
+- Left menu → **Approvals**
+- Left menu → **Purchase orders**
+- Left menu → **Stock** / **Assets**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

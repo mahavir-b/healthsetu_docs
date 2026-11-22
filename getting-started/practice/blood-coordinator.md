@@ -1,41 +1,38 @@
 # Hands-on: Camp coordinator
 
 **Role:** `coordinator`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 20 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Use only the staff portal — not a module Static Web App URL.
-  Skip this path if your organisation did not enable the module for this role.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Plan and open a camp
+- Create a camp
 - Register camp donors
-- Track collection start
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/`
-2. [ ] Open **Camps** (`/camps`) — create or open a training camp
-3. [ ] Add venue / date details
-4. [ ] Register or attach a donor for the camp
-5. [ ] Start collection path if the camp is live
-6. [ ] Confirm requests / inventory view (read) if needed
-7. [ ] Sign out
+1. [ ] Sign in
+2. [ ] Left menu → **Camps** → **Add**
+3. [ ] Enter name, date, venue → **Save**
+4. [ ] Open the camp → register / attach a donor as your UI allows
+5. [ ] Open **Collections** when the camp is live
+6. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/camps`
-- `/camps/:id`
-- `/donors`
-- `/collections`
+- **Camps** → **Add** → **Save**
+- **Donors**
+- **Collections**
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 

@@ -1,46 +1,47 @@
 # Hands-on: Organisation admin
 
 **Role:** `organization_admin`  
-**Practise on:** `https://{your-org}.healthsetu.com/`  
-**Login:** org admin login (tenant) — and platform admin for new orgs  
+**Sign in at:** `https://{your-org}.healthsetu.com/`  
+**Login:** your login for this role  
 **Time:** about 45–60 minutes
 
 <div class="callout callout--tip">
-  Sign out of any other account first. Open only the staff portal above — not a module Static Web App URL.
+  Sign out of any other account first. Work only in the staff portal. Follow the <strong>left menu</strong> and on-screen buttons (Add, Edit, Save, Refresh) — you do not need to type web addresses.
 </div>
 
 ## You will learn
 
-- Use Settings readiness
-- Manage users and barcodes
-- Know when to use the full QA / go-live lists
+- Setup readiness
+- Users
+- Barcodes
 
 ## Step by step
 
-1. [ ] Sign in at `https://{your-org}.healthsetu.com/` as org admin
-2. [ ] `/settings/overview` — read readiness cards
-3. [ ] Walk **Get ready** / Recommended if tasks remain
-4. [ ] `/system/organization?admin=users` — confirm staff logins exist
-5. [ ] Barcodes + ID cards — open mapping/designer once
-6. [ ] Spot-check each subscribed module opens from the sidebar
-7. [ ] For a **brand-new** org on Azure: create it from `https://admin.healthsetu.com/organizations` first (platform admin), then return here
-8. [ ] Full pass across every role: <a href="#" data-hs-route="getting-started/manual-qa-checklist">Full manual QA checklist</a>
-9. [ ] Sign out
+1. [ ] Sign in on the tenant portal
+2. [ ] Left menu → **Setup** (or **Settings**)
+3. [ ] Open **Setup overview** — read the task list and service cards
+4. [ ] Open **Recommended setup** / **Get ready** and complete or accept items
+5. [ ] Under Organization: open **Workplaces** → **Add** MAIN if missing → **Save**; add departments
+6. [ ] Left menu → **Administration** / org admin → **Users** → **Add** staff → **Save**
+7. [ ] Open **Barcodes** → pick a template → **Mapping** → tick fields → **Save** → open **Designer**
+8. [ ] Open **ID cards** → open a version → designer
+9. [ ] Click each subscribed module in the left menu once to confirm it opens
+10. [ ] Sign out
 
-## Screens this role uses
+## Where to click in the UI
 
-- `/settings/overview`
-- `/system/organization?admin=users`
-- `/system/organization?admin=barcodes`
-- `/people`
+- Left menu → **Setup** → **Setup overview** / **Recommended setup** / **Get ready**
+- **Workplaces** → **Add** → **Save**
+- **Users** → **Add** → **Save**
+- **Barcodes** → Mapping → **Save** → Designer
 
 ## Done when
 
 - [ ] You finished every step without an unexplained error banner
-- [ ] You know which sidebar items are yours (and which are not)
+- [ ] You know which left-menu items are yours (and which are hidden)
 
 ## Next
 
-Shorter go-live: <a href="#" data-hs-route="getting-started/admin-setup">Go-live checklist</a>.
+Full org test: <a href="#" data-hs-route="getting-started/manual-qa-checklist">Full manual QA checklist</a>.
 
 <a href="#" data-hs-route="getting-started/by-role">← All roles</a>
