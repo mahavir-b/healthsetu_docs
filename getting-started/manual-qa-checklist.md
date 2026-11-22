@@ -2,6 +2,8 @@
 
 Walk this **in order**. Each section starts with **who to log in as**, then the exact steps for that user. Sign out before the next login.
 
+**Learning one role only?** Open <a href="#" data-hs-route="getting-started/by-role">Hands-on by role</a> and click your job (e.g. Doctor) for a practise path. Use this full checklist when you are validating a whole new organisation.
+
 For a shorter go-live list, see <a href="#" data-hs-route="getting-started/admin-setup">Go-live checklist (admins)</a>.
 
 <div class="callout callout--tip">

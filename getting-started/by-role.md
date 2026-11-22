@@ -1,68 +1,139 @@
-# Guides by role
+# Hands-on by role
 
-Pick your role. Open the three pages listed — that is enough for the first week.
+Pick your job. Each card is a **practice path**: sign in on Azure, then tick every step for the work your role can do.
 
-<span class="role-chip">Reception / front desk</span>
-<span class="role-chip">Nurse / PA</span>
-<span class="role-chip">Doctor</span>
-<span class="role-chip">Counsellor</span>
-<span class="role-chip">Cashier</span>
-<span class="role-chip">Blood bank tech</span>
-<span class="role-chip">Camp organiser</span>
-<span class="role-chip">Store / purchase</span>
-<span class="role-chip">HR</span>
-<span class="role-chip">OHC doctor / nurse</span>
-<span class="role-chip">Organisation admin</span>
+<div class="callout callout--tip">
+  <strong>Where to practise</strong><br/>
+  Staff portal: <code>https://{your-org}.healthsetu.com/</code><br/>
+  Platform admin (org admins only): <code>https://admin.healthsetu.com/</code><br/>
+  Patient app: <code>https://{your-org}.patient.healthsetu.co.in/</code><br/>
+  Ask your admin for your login. Use a test patient / donor — not live production data if you are training.
+</div>
 
-## CareSetu clinic
+## CareSetu (clinic)
 
-| Role | Start here |
-|------|------------|
-| Reception | <a href="#" data-hs-route="caresetu/patients">Patients</a> → <a href="#" data-hs-route="caresetu/appointments">Appointments</a> → <a href="#" data-hs-route="caresetu/billing">Billing</a> |
-| Nurse / PA | <a href="#" data-hs-route="caresetu/appointments">Appointments</a> → <a href="#" data-hs-route="caresetu/opd">OPD visit</a> |
-| Doctor | <a href="#" data-hs-route="caresetu/opd">OPD visit</a> → <a href="#" data-hs-route="caresetu/procedures">Procedures</a> |
-| Counsellor | <a href="#" data-hs-route="caresetu/counsellor">Counsellor board</a> → <a href="#" data-hs-route="caresetu/procedures">Procedures</a> |
-| Cashier | <a href="#" data-hs-route="caresetu/billing">Billing</a> → <a href="#" data-hs-route="caresetu/patients">Patients</a> |
-| Clinic admin | <a href="#" data-hs-route="caresetu/setup">Clinic setup & reports</a> |
+<div class="module-grid">
+  <a class="module-card" href="#/getting-started/practice/clinic-receptionist">
+    <strong>Reception / front desk</strong>
+    <span>Individuals, book appointments, waitlist, hand off to OPD.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/clinic-nurse">
+    <strong>Nurse</strong>
+    <span>Nursing station, vitals, support the visit.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/clinic-doctor">
+    <strong>Doctor</strong>
+    <span>Doctor desk, OPD note, Rx, finish visit, procedures.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/clinic-cashier">
+    <strong>Clinic cashier</strong>
+    <span>Collect consult and procedure fees after the visit.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/clinic-admin">
+    <strong>Clinic admin</strong>
+    <span>Doctors, schedules, fees, clinic settings, templates.</span>
+  </a>
+</div>
 
-## RakhtSetu blood bank
+## RakhtSetu (blood bank)
 
-| Role | Start here |
-|------|------------|
-| Registration / camp | <a href="#" data-hs-route="rakhtsetu/donors">Donors</a> → <a href="#" data-hs-route="rakhtsetu/camps">Camps</a> → <a href="#" data-hs-route="rakhtsetu/collections">Collections</a> |
-| Component / lab | <a href="#" data-hs-route="rakhtsetu/processing">Processing</a> → <a href="#" data-hs-route="rakhtsetu/testing">Testing</a> → <a href="#" data-hs-route="rakhtsetu/qc">QC</a> |
-| Issue counter | <a href="#" data-hs-route="rakhtsetu/patients-requests">Patients & requests</a> → <a href="#" data-hs-route="rakhtsetu/testing">Testing</a> |
+<div class="module-grid">
+  <a class="module-card" href="#/getting-started/practice/blood-reception">
+    <strong>Blood bank reception</strong>
+    <span>Register donors, open camps, start the collection day.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/blood-counsellor">
+    <strong>Counsellor</strong>
+    <span>Donor counselling and fit / defer decisions.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/blood-phlebotomist">
+    <strong>Phlebotomist</strong>
+    <span>Collection and donor station work.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/blood-testing">
+    <strong>Testing specialist</strong>
+    <span>Lab batch, TTI / group results.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/blood-technician">
+    <strong>Technician</strong>
+    <span>Separation, processing, component work.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/blood-quality">
+    <strong>Quality officer / issue</strong>
+    <span>Component QC, requests, crossmatch, issue.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/medical-director">
+    <strong>Medical director</strong>
+    <span>Institutions, equipment, workflows, clinical oversight.</span>
+  </a>
+</div>
 
 ## SupplySetu
 
-| Role | Start here |
-|------|------------|
-| Store | <a href="#" data-hs-route="supplysetu/catalog-stock">Catalog & stock</a> → <a href="#" data-hs-route="supplysetu/checklists">Checklists</a> |
-| Purchase | <a href="#" data-hs-route="supplysetu/vendors-po">Vendors & POs</a> → <a href="#" data-hs-route="supplysetu/catalog-stock">Stock</a> |
-| Biomedical | <a href="#" data-hs-route="supplysetu/assets">Assets</a> → <a href="#" data-hs-route="supplysetu/checklists">Checklists</a> |
+<div class="module-grid">
+  <a class="module-card" href="#/getting-started/practice/store-keeper">
+    <strong>Store keeper</strong>
+    <span>Stock in/out, locations, daily stock work.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/supply-request">
+    <strong>Requester</strong>
+    <span>Raise inventory requests for your department.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/supply-admin">
+    <strong>Supply / inventory admin</strong>
+    <span>Catalog, vendors, POs, approvals, assets.</span>
+  </a>
+</div>
 
 ## HRSetu
 
-| Role | Start here |
-|------|------------|
-| HR admin | <a href="#" data-hs-route="hrsetu/employees">Employees</a> → <a href="#" data-hs-route="hrsetu/attendance-leave">Attendance & leave</a> → <a href="#" data-hs-route="hrsetu/payroll">Payroll</a> |
-| HR manager | <a href="#" data-hs-route="hrsetu/reports">HR dashboard & reports</a> → <a href="#" data-hs-route="hrsetu/attendance-leave">Attendance & leave</a> |
-| Every employee | <a href="#" data-hs-route="hrsetu/my-hr">My HR</a> |
+<div class="module-grid">
+  <a class="module-card" href="#/getting-started/practice/hr-admin">
+    <strong>HR admin</strong>
+    <span>Workplaces, hire, attendance, leave setup.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/hr-manager">
+    <strong>HR manager</strong>
+    <span>Approve leave, oversee employees and reports.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/hr-employee">
+    <strong>Every employee (My HR)</strong>
+    <span>Check-in, leave, slips, documents, my shifts.</span>
+  </a>
+</div>
 
-## SwasthaSetu (OHC)
+## Billing
 
-| Role | Start here |
-|------|------------|
-| OHC doctor / nurse | <a href="#" data-hs-route="swasthasetu/overview">Overview</a> → <a href="#" data-hs-route="swasthasetu/exams">Medical exams</a> |
-| Safety / EHS | <a href="#" data-hs-route="swasthasetu/site-checks">Site safety & compliance checks</a> |
+<div class="module-grid">
+  <a class="module-card" href="#/getting-started/practice/billing-cashier">
+    <strong>Billing cashier</strong>
+    <span>Cashier desk, charge packages, collect payment.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/billing-admin">
+    <strong>Billing admin</strong>
+    <span>Masters, packages, settings, day-close oversight.</span>
+  </a>
+</div>
 
-## Organisation admin (Core)
+## Organisation
 
-| Role | Start here |
-|------|------------|
-| Org admin | <a href="#" data-hs-route="getting-started/admin-setup">Go-live checklist</a> → <a href="#" data-hs-route="core/users-roles">Users & roles</a> → <a href="#" data-hs-route="core/settings">Settings</a> → <a href="#" data-hs-route="core/barcodes">Barcodes</a> |
+<div class="module-grid">
+  <a class="module-card" href="#/getting-started/practice/org-admin">
+    <strong>Organisation admin</strong>
+    <span>Users, settings, barcodes, get the hospital ready.</span>
+  </a>
+</div>
 
-<figure class="video-frame">
-  <p><em>Video placeholder — “Pick your role: 5-minute tour of the screens you will use”</em></p>
-  <figcaption>Suggested: one short clip per department</figcaption>
-</figure>
+## Full system test (trainers / QA)
+
+If you are validating an entire new org (every role in sequence), use the
+<a href="#" data-hs-route="getting-started/manual-qa-checklist">Full manual QA checklist</a>.
+
+## Help topics (not hands-on)
+
+| Role | Quick reading |
+|------|----------------|
+| Reception | <a href="#" data-hs-route="caresetu/patients">Patients</a> · <a href="#" data-hs-route="caresetu/appointments">Appointments</a> · <a href="#" data-hs-route="caresetu/billing">Billing</a> |
+| Doctor | <a href="#" data-hs-route="caresetu/opd">OPD visit</a> · <a href="#" data-hs-route="caresetu/procedures">Procedures</a> |
+| Store | <a href="#" data-hs-route="supplysetu/catalog-stock">Catalog & stock</a> |
+| HR | <a href="#" data-hs-route="hrsetu/my-hr">My HR</a> · <a href="#" data-hs-route="hrsetu/employees">Employees</a> |

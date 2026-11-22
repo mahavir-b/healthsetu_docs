@@ -56,13 +56,28 @@ HealthSetu is a multi-module platform for Indian healthcare organisations. Your 
 
 1. Open the **left menu** (same idea as the product sidebar).
 2. Start with [Getting started](#/getting-started/overview) if you are new.
-3. **Owners / first setup:** print [Before you start (paper & Excel)](#/getting-started/before-you-start) before opening Hospital setup.
-4. Jump to your module, then the screen you use most.
-5. Use **Search** (top of the sidebar) for a keyword such as “crossmatch” or “leave”.
+3. **New staff / hands-on learning:** open [Hands-on by role](#/getting-started/by-role), click your job (Doctor, Reception, Store…), and tick the practise steps on Azure (`https://{your-org}.healthsetu.com`).
+4. **Owners / first setup:** print [Before you start (paper & Excel)](#/getting-started/before-you-start) before Hospital setup.
+5. Jump to your module, then the screen you use most.
+6. Use **Search** (top of the sidebar) for a keyword such as “crossmatch” or “leave”.
 
 <div class="callout callout--tip">
-  <strong>Tip for trainers:</strong> Walk a new joiner through <a href="#" data-hs-route="getting-started/by-role">Guides by role</a>, then the three pages they will open every day.
+  <strong>Tip for trainers:</strong> Give each joiner only their
+  <a href="#" data-hs-route="getting-started/by-role">Hands-on by role</a> card (e.g. Doctor).
+  For a full org validation, use the
+  <a href="#" data-hs-route="getting-started/manual-qa-checklist">Full manual QA checklist</a>.
   For a new hospital, start with <a href="#" data-hs-route="getting-started/before-you-start">Before you start</a> — paper first, then Excel, then software.
+</div>
+
+<div class="module-grid">
+  <a class="module-card" href="#/getting-started/by-role">
+    <strong>Hands-on by role</strong>
+    <span>Click Doctor, Reception, Store, HR… and practise every step enabled for that job.</span>
+  </a>
+  <a class="module-card" href="#/getting-started/practice/clinic-doctor">
+    <strong>Example: Doctor path</strong>
+    <span>Doctor desk → OPD note → Rx → procedures — step by step.</span>
+  </a>
 </div>
 
 ## Media
