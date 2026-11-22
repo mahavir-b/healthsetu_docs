@@ -116,7 +116,7 @@ When they get ID card: _______________________
 ## Next
 
 1. Copy tables → Excel CSVs in `assets/prep/`.
-2. Open HealthSetu Hospital setup (`/setup`) and type from Excel.
+2. Open left menu → **Setup** and type from Excel.
 3. Continue <a href="#" data-hs-route="getting-started/admin-setup">Go-live checklist</a>.
 
 Back to <a href="#" data-hs-route="getting-started/before-you-start">Before you start hub</a>.

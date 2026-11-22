@@ -91,7 +91,7 @@ CSV index: <a href="#" data-hs-route="assets/prep/README">assets/prep README</a>
 
 1. Hand the filled sheets to the person who will type into HealthSetu.
 2. Follow <a href="#" data-hs-route="getting-started/admin-setup">Go-live checklist (admins)</a>.
-3. Only then open Hospital setup (`/setup`) and module admin screens.
+3. Only then open left menu → **Setup** and module admin screens.
 
 <div class="callout">
   <strong>HealthSetu staff:</strong> send this page + the relevant module worksheet before the first setup call. Do not run the wizard “live” until the paper pack for that module is mostly filled.
