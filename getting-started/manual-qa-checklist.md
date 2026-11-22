@@ -9,13 +9,12 @@ For a shorter go-live list, see <a href="#" data-hs-route="getting-started/admin
 <div class="callout callout--tip">
   <strong>Where to log in (Azure)</strong><br/>
   Platform admin: <code>https://admin.healthsetu.com/</code><br/>
-  Staff (every role below): <code>https://qaYYYYMMDD.healthsetu.com/</code><br/>
-  Patient app: <code>https://qaYYYYMMDD.patient.healthsetu.co.in/</code><br/>
+  Staff (every role below): <code>https://qacampus.healthsetu.com/</code><br/>
+  Patient app: <code>https://qacampus.patient.healthsetu.co.in/</code><br/>
   Use only the Azure hosts above for this QA round.<br/><strong>How to navigate:</strong> use the <em>left menu</em> and on-screen buttons (Add, Edit, Save, Refresh, Approve). Do not type web paths.
 </div>
 
-**Replace `YYYYMMDD`** with today’s date (e.g. `20261122`).  
-After provision, tenant DNS should resolve to `https://qaYYYYMMDD.healthsetu.com/` (alias `*.healthsetu.co.in` is OK if that is what Azure DNS serves).  
+Tenant portal: `https://qacampus.healthsetu.com/` (or your training org host).  
 **Password for every QA staff user:** `QaTest@2026`  
 **Marking:** `[ ]` pending · `[x]` pass · `[!]` fail  
 
@@ -25,15 +24,15 @@ After provision, tenant DNS should resolve to `https://qaYYYYMMDD.healthsetu.com
 
 | What | Value |
 |------|-------|
-| Org name / code | `QA HealthSetu Campus YYYYMMDD` / `qaYYYYMMDD` |
+| Org name / code | `QA HealthSetu Campus` / `qacampus` |
 | Address | `12 SG Highway`, Ahmedabad, Gujarat, `380054` |
-| Org phone / email | `9876500001` / `admin@qaYYYYMMDD.test` |
+| Org phone / email | `9876500001` / `admin@qacampus.test` |
 | Modules | CARE + SUPPLY + BLOOD_BANK + HR + BILLING + PATIENT |
-| Brand | App `QA Campus` · support `support@qaYYYYMMDD.test` |
+| Brand | App `QA Campus` · support `support@qacampus.test` |
 | UPI *(optional)* | `qacampus@upi` · payee `QA HealthSetu Campus` · fee `500` |
 | Workplace | Code `MAIN` · name `Main Campus` · PT Gujarat · Mon–Sat |
 | Shifts | `Morning` 08:00–16:00 · `Evening` 16:00–22:00 |
-| Holiday | `26/01/YYYY` Republic Day |
+| Holiday | `26/01/2026` Republic Day |
 | Doctor employee | `Dr Anita Shah` · GMC `G-12345` · Active |
 | Patient | `Test Patient One` · F · DOB `15/03/1990` · phone `9876511111` |
 | Fees | New consult ₹500 · Follow-up ₹300 · Dressing ₹200 · ECG ₹400 |
@@ -51,37 +50,37 @@ After provision, tenant DNS should resolve to `https://qaYYYYMMDD.healthsetu.com
 
 | Login | Role |
 |-------|------|
-| `qa.admin@qaYYYYMMDD.test` | organization_admin |
-| `qa.hradmin@qaYYYYMMDD.test` | hr_admin |
-| `qa.hrmgr@qaYYYYMMDD.test` | hr_manager |
-| `qa.payroll@qaYYYYMMDD.test` | hr_payroll |
-| `qa.employee@qaYYYYMMDD.test` | hr_employee |
-| `qa.clinicadmin@qaYYYYMMDD.test` | clinic_admin |
-| `qa.reception@qaYYYYMMDD.test` | clinic_receptionist |
-| `qa.doctor@qaYYYYMMDD.test` | clinic_doctor |
-| `qa.nurse@qaYYYYMMDD.test` | clinic_nurse |
-| `qa.cashier@qaYYYYMMDD.test` | clinic_cashier |
-| `qa.supply@qaYYYYMMDD.test` | supply_admin |
-| `qa.store@qaYYYYMMDD.test` | store_keeper |
-| `qa.invmgr@qaYYYYMMDD.test` | inventory_manager |
-| `qa.request@qaYYYYMMDD.test` | request |
-| `qa.meddir@qaYYYYMMDD.test` | medical_director |
-| `qa.bbreception@qaYYYYMMDD.test` | receptionist |
-| `qa.bbcounsellor@qaYYYYMMDD.test` | counsellor |
-| `qa.phlebo@qaYYYYMMDD.test` | phlebotomist |
-| `qa.testing@qaYYYYMMDD.test` | testing_specialist |
-| `qa.tech@qaYYYYMMDD.test` | technician |
-| `qa.qo@qaYYYYMMDD.test` | quality_officer |
-| `qa.billadmin@qaYYYYMMDD.test` | billing_admin |
-| `qa.billcash@qaYYYYMMDD.test` | billing_cashier |
-| `qa.billsup@qaYYYYMMDD.test` | billing_supervisor |
-| `qa.billacct@qaYYYYMMDD.test` | billing_accountant |
+| `qa.admin@qacampus.test` | organization_admin |
+| `qa.hradmin@qacampus.test` | hr_admin |
+| `qa.hrmgr@qacampus.test` | hr_manager |
+| `qa.payroll@qacampus.test` | hr_payroll |
+| `qa.employee@qacampus.test` | hr_employee |
+| `qa.clinicadmin@qacampus.test` | clinic_admin |
+| `qa.reception@qacampus.test` | clinic_receptionist |
+| `qa.doctor@qacampus.test` | clinic_doctor |
+| `qa.nurse@qacampus.test` | clinic_nurse |
+| `qa.cashier@qacampus.test` | clinic_cashier |
+| `qa.supply@qacampus.test` | supply_admin |
+| `qa.store@qacampus.test` | store_keeper |
+| `qa.invmgr@qacampus.test` | inventory_manager |
+| `qa.request@qacampus.test` | request |
+| `qa.meddir@qacampus.test` | medical_director |
+| `qa.bbreception@qacampus.test` | receptionist |
+| `qa.bbcounsellor@qacampus.test` | counsellor |
+| `qa.phlebo@qacampus.test` | phlebotomist |
+| `qa.testing@qacampus.test` | testing_specialist |
+| `qa.tech@qacampus.test` | technician |
+| `qa.qo@qacampus.test` | quality_officer |
+| `qa.billadmin@qacampus.test` | billing_admin |
+| `qa.billcash@qacampus.test` | billing_cashier |
+| `qa.billsup@qacampus.test` | billing_supervisor |
+| `qa.billacct@qacampus.test` | billing_accountant |
 
 ---
 
 ## Step 0 — Pre-flight (no login)
 
-- [ ] Azure reachable: `https://admin.healthsetu.com/` sign-in works; tenant DNS for new org will be `https://qaYYYYMMDD.healthsetu.com/`
+- [ ] Azure reachable: `https://admin.healthsetu.com/` sign-in works; tenant DNS for new org will be `https://qacampus.healthsetu.com/`
 - [ ] Open help site home: https://mahavir-b.github.io/healthsetu_docs/ — sidebar loads
 - [ ] Password ready: `QaTest@2026`
 
@@ -95,7 +94,7 @@ After provision, tenant DNS should resolve to `https://qaYYYYMMDD.healthsetu.com
 ### Create the org
 
 - [ ] Go to **Organizations** → Create
-- [ ] Name `QA HealthSetu Campus YYYYMMDD` · code `qaYYYYMMDD` · address from seed pack
+- [ ] Name `QA HealthSetu Campus` · code `qacampus` · address from seed pack
 - [ ] Enable CARE + SUPPLY + BLOOD_BANK + HR + BILLING + PATIENT → Save
 - [ ] Note org id: _______________
 
@@ -112,7 +111,7 @@ After provision, tenant DNS should resolve to `https://qaYYYYMMDD.healthsetu.com
 
 ### Users tab — first tenant admin
 
-- [ ] Add user `qa.admin@qaYYYYMMDD.test` · role **organization_admin** · password `QaTest@2026`
+- [ ] Add user `qa.admin@qacampus.test` · role **organization_admin** · password `QaTest@2026`
 
 ### Other org tabs
 
@@ -135,8 +134,8 @@ After provision, tenant DNS should resolve to `https://qaYYYYMMDD.healthsetu.com
 
 ## Step B — Now log in as **QA Org Admin**
 
-**URL:** `https://qaYYYYMMDD.healthsetu.com/`  
-**User:** `qa.admin@qaYYYYMMDD.test`  
+**URL:** `https://qacampus.healthsetu.com/`  
+**User:** `qa.admin@qacampus.test`  
 **Role:** `organization_admin`  
 **Password:** `QaTest@2026`
 
@@ -189,7 +188,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step C — Now log in as **QA HR Admin**
 
-**User:** `qa.hradmin@qaYYYYMMDD.test`  
+**User:** `qa.hradmin@qacampus.test`  
 **Role:** `hr_admin`
 
 - [ ] Home loads · HR items visible · Care clinical write not available (or read-only)
@@ -220,7 +219,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step D — Now log in as **QA HR Manager**
 
-**User:** `qa.hrmgr@qaYYYYMMDD.test`  
+**User:** `qa.hrmgr@qacampus.test`  
 **Role:** `hr_manager`
 
 - [ ] Left menu → **Employees** — list loads
@@ -232,7 +231,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step E — Now log in as **QA Payroll**
 
-**User:** `qa.payroll@qaYYYYMMDD.test`  
+**User:** `qa.payroll@qacampus.test`  
 **Role:** `hr_payroll`
 
 - [ ] Left menu → **Salary** · **Statutory** · **HR reports** — each opens
@@ -244,7 +243,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step F — Now log in as **QA Employee (self-service)**
 
-**User:** `qa.employee@qaYYYYMMDD.test`  
+**User:** `qa.employee@qacampus.test`  
 **Role:** `hr_employee`
 
 - [ ] Left menu → **My day** — loads
@@ -257,7 +256,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step G — Now log in as **QA Supply Admin**
 
-**User:** `qa.supply@qaYYYYMMDD.test`  
+**User:** `qa.supply@qacampus.test`  
 **Role:** `supply_admin`
 
 - [ ] Left menu → **Inventory health** · **Supply reports** · **Tasks** · **Daily QC** — each opens
@@ -281,7 +280,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step H — Now log in as **QA Store Keeper**
 
-**User:** `qa.store@qaYYYYMMDD.test`  
+**User:** `qa.store@qacampus.test`  
 **Role:** `store_keeper`
 
 - [ ] Left menu → **Stock** — gloves visible · click **Refresh**
@@ -293,7 +292,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step I — Now log in as **QA Requester**
 
-**User:** `qa.request@qaYYYYMMDD.test`  
+**User:** `qa.request@qacampus.test`  
 **Role:** `request`
 
 - [ ] Left menu → **Request inventory** → **Add** — request **5** boxes Surgical gloves M for OT store → **Submit**
@@ -304,7 +303,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step J — Now log in as **QA Inventory Manager**
 
-**User:** `qa.invmgr@qaYYYYMMDD.test`  
+**User:** `qa.invmgr@qacampus.test`  
 **Role:** `inventory_manager`
 
 - [ ] Left menu → **Approvals** — select the gloves request → **Approve**
@@ -315,7 +314,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step K — Now log in as **QA Clinic Admin**
 
-**User:** `qa.clinicadmin@qaYYYYMMDD.test`  
+**User:** `qa.clinicadmin@qacampus.test`  
 **Role:** `clinic_admin`
 
 - [ ] Left menu → Care home / clinic dashboard · **Clinic settings** — name `QA Campus OPD` · reg `QA-CLINIC-001` → **Save**
@@ -336,7 +335,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step L — Now log in as **QA Reception**
 
-**User:** `qa.reception@qaYYYYMMDD.test`  
+**User:** `qa.reception@qacampus.test`  
 **Role:** `clinic_receptionist`
 
 - [ ] Left menu → **Individuals** — find Test Patient One
@@ -349,7 +348,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step M — Now log in as **QA Doctor**
 
-**User:** `qa.doctor@qaYYYYMMDD.test`  
+**User:** `qa.doctor@qacampus.test`  
 **Role:** `clinic_doctor`
 
 - [ ] Left menu → **OPD** or **Doctor desk** — open Test Patient One visit
@@ -361,7 +360,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step N — Now log in as **QA Nurse**
 
-**User:** `qa.nurse@qaYYYYMMDD.test`  
+**User:** `qa.nurse@qacampus.test`  
 **Role:** `clinic_nurse`
 
 - [ ] Left menu → **Nursing station** — open same visit
@@ -373,7 +372,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step O — Now log in as **QA Clinic Cashier**
 
-**User:** `qa.cashier@qaYYYYMMDD.test`  
+**User:** `qa.cashier@qacampus.test`  
 **Role:** `clinic_cashier`
 
 - [ ] Left menu → **Billing** (or **Cashier desk**) — charge New consultation ₹500 (+ Dressing ₹200 if done)
@@ -385,7 +384,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step P — Now log in as **QA Medical Director**
 
-**User:** `qa.meddir@qaYYYYMMDD.test`  
+**User:** `qa.meddir@qacampus.test`  
 **Role:** `medical_director`
 
 - [ ] Left menu → **RakhtSetu dashboard** · **QC dashboard** · **Audit and compliance** — each opens
@@ -406,7 +405,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step Q — Now log in as **QA BB Reception**
 
-**User:** `qa.bbreception@qaYYYYMMDD.test`  
+**User:** `qa.bbreception@qacampus.test`  
 **Role:** `receptionist` (blood)
 
 - [ ] Left menu → **Donors** → **Add** — register **Donor Ramesh Kumar** (O+, 72 kg, 9876544444, DOB 10/05/1988) → **Save**
@@ -417,7 +416,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step R — Now log in as **QA BB Counsellor**
 
-**User:** `qa.bbcounsellor@qaYYYYMMDD.test`  
+**User:** `qa.bbcounsellor@qacampus.test`  
 **Role:** `counsellor`
 
 - [ ] Open Donor Ramesh Kumar · counselling → **fit to donate**
@@ -427,7 +426,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step S — Now log in as **QA Phlebotomist**
 
-**User:** `qa.phlebo@qaYYYYMMDD.test`  
+**User:** `qa.phlebo@qacampus.test`  
 **Role:** `phlebotomist`
 
 - [ ] Left menu → **Collections** or **Donor station** — complete collection for Ramesh → **Save** / **Complete**
@@ -437,7 +436,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step T — Now log in as **QA Testing**
 
-**User:** `qa.testing@qaYYYYMMDD.test`  
+**User:** `qa.testing@qacampus.test`  
 **Role:** `testing_specialist`
 
 - [ ] Left menu → **Testing** → open **Pending** · click a unit → **Enter results** / **Add results** · check Completed / TTI panel views
@@ -449,7 +448,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step U — Now log in as **QA Technician**
 
-**User:** `qa.tech@qaYYYYMMDD.test`  
+**User:** `qa.tech@qacampus.test`  
 **Role:** `technician`
 
 - [ ] Left menu → **Processing** · **Separation batch** · triple-bag workspace
@@ -461,7 +460,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step V — Now log in as **QA Quality Officer**
 
-**User:** `qa.qo@qaYYYYMMDD.test`  
+**User:** `qa.qo@qacampus.test`  
 **Role:** `quality_officer`
 
 - [ ] Left menu → **Component QC** — pass QC → **Save**
@@ -476,7 +475,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step W — Now log in as **QA Billing Admin**
 
-**User:** `qa.billadmin@qaYYYYMMDD.test`  
+**User:** `qa.billadmin@qacampus.test`  
 **Role:** `billing_admin`  
 *(Skip W–Z if BILLING not enabled)*
 
@@ -489,7 +488,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step X — Now log in as **QA Billing Cashier**
 
-**User:** `qa.billcash@qaYYYYMMDD.test`  
+**User:** `qa.billcash@qacampus.test`  
 **Role:** `billing_cashier`
 
 - [ ] Left menu → **Cashier desk** — charge Test Patient One · OPD day package ₹800 → **Collect** → Cash
@@ -500,7 +499,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step Y — Now log in as **QA Billing Supervisor**
 
-**User:** `qa.billsup@qaYYYYMMDD.test`  
+**User:** `qa.billsup@qacampus.test`  
 **Role:** `billing_supervisor`
 
 - [ ] Left menu → Billing **Approvals** · **Credit & refunds**
@@ -512,7 +511,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step Z — Now log in as **QA Billing Accountant**
 
-**User:** `qa.billacct@qaYYYYMMDD.test`  
+**User:** `qa.billacct@qacampus.test`  
 **Role:** `billing_accountant`
 
 - [ ] Left menu → **Billing reports** · **Accounts** — open one account (row click)
@@ -522,7 +521,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ## Step AA — Now use the **Patient app** (not staff portal)
 
-**URL:** `https://qaYYYYMMDD.patient.healthsetu.co.in/`  
+**URL:** `https://qacampus.patient.healthsetu.co.in/`  
 **User:** phone `9876511111` (Test Patient One)
 
 - [ ] Sign in → Home
@@ -533,7 +532,7 @@ Left menu → **Administration** (or **Organization**) → **Users** → click *
 
 ### Then log in again as **QA Clinic Admin**
 
-**User:** `qa.clinicadmin@qaYYYYMMDD.test`
+**User:** `qa.clinicadmin@qacampus.test`
 
 - [ ] Left menu → **Portal requests** — see the booking · update status → **Save**
 - [ ] Sign out
@@ -609,7 +608,7 @@ Open the emailed / SMS link (do not type a path):
 | AC | Help docs | [ ] | |
 | AD | Cross-checks | [ ] | |
 
-**Org code:** `qaYYYYMMDD` = _______________  
+**Org code:** `qacampus` (or your training org code)  
 **Overall:** Pass / Fail / Pass with issues  
 
 ---
