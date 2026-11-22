@@ -4,7 +4,7 @@ Organisation admins decide **who can sign in** and **what they can do**.
 
 ## Add a user
 
-1. Left menu → **Setup** / **Settings** → **Users** (tenant), or platform **Organizations** → org → **Users** tab.
+1. Left menu → **Users** (under Administration), or platform **Organizations** → org → **Users** tab.
 2. Click **Add** / **Add user**.
 3. Enter name, email, and role.
 4. Save — the person gets an invite / set-password path (depending on your settings).
