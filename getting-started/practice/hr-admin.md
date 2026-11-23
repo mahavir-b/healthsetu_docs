@@ -18,21 +18,21 @@
 ## Step by step
 
 1. [ ] Sign in
-2. [ ] Left menu → **Workplaces** (or **Setup** → Workplaces) — open MAIN → review shifts
-3. [ ] Left menu → **Employees** → click **Hire** / **Add**
+2. [ ] Left menu → **Administration** → **Setup** → **Workplaces** — open MAIN → review shifts
+3. [ ] Left menu → **People** → **Employees** → click **Hire** / **Add**
 4. [ ] Fill workplace, department, role → set status **Active** → **Save**
 5. [ ] Open the employee row (name click or **Edit**)
-6. [ ] Left menu → **Attendance** — mark someone present → **Save**
-7. [ ] Left menu → **Leave** — open the list
-8. [ ] Open **Salary**, **Statutory**, **HR dashboard**, **Document library** once each
-9. [ ] Sign out
+6. [ ] Left menu → **People** → **Attendance** — mark someone present → **Save**
+7. [ ] Left menu → **People** → **Leave** — open the list
+8. [ ] Left menu → **People** → **Shift roster** — open once
+9. [ ] Open **Salary**, **Statutory**, **HR dashboard**, **Document library** once each
+10. [ ] Sign out
 
 ## Where to click in the UI
 
+- **Administration** → **Setup** → **Workplaces**
 - **Employees** → **Hire** → **Save**
-- **Attendance**
-- **Leave**
-- **Workplaces**
+- **Attendance** / **Leave** / **Shift roster**
 
 ## Done when
 

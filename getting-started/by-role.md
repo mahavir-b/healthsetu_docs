@@ -34,7 +34,7 @@ Every **recommended role slug** from HealthSetu import has a path below (skip mo
   <a class="module-card" href="#/getting-started/practice/blood-reception"><strong>Reception</strong><span><code>receptionist</code> — register donors &amp; camps.</span></a>
   <a class="module-card" href="#/getting-started/practice/blood-counsellor"><strong>Counsellor</strong><span><code>counsellor</code> — fit / defer.</span></a>
   <a class="module-card" href="#/getting-started/practice/blood-phlebotomist"><strong>Phlebotomist</strong><span><code>phlebotomist</code> — collection.</span></a>
-  <a class="module-card" href="#/getting-started/practice/blood-testing"><strong>Testing specialist</strong><span><code>testing_specialist</code> — lab results.</span></a>
+  <a class="module-card" href="#/getting-started/practice/blood-testing"><strong>Testing specialist</strong><span><code>testing_specialist</code> — Testing / TTI.</span></a>
   <a class="module-card" href="#/getting-started/practice/blood-technician"><strong>Technician</strong><span><code>technician</code> — separation / processing.</span></a>
   <a class="module-card" href="#/getting-started/practice/blood-technician-supervisor"><strong>Technician supervisor</strong><span><code>technician_supervisor</code> — supervise processing.</span></a>
   <a class="module-card" href="#/getting-started/practice/blood-quality"><strong>Quality officer</strong><span><code>quality_officer</code> — QC &amp; issue.</span></a>

@@ -24,11 +24,15 @@
 
 | Area | What you do here |
 |------|------------------|
-| **Home / Dashboard** | Snapshot of today’s work |
-| **My Work / Inbox** | Tasks, approvals, messages waiting on you |
-| **People** | Patients, donors, employees (depending on modules) |
-| **Clinical / Operations** | Day-to-day screens for your job |
-| **Administration** | Setup only — usually managers and admins |
+| **Home** | Snapshot of today’s work |
+| **My Work** | **Inbox**, **Preferences**, and self-service (My day, Check in, …) |
+| **People** | **Individuals**, employees, doctors (depending on modules) |
+| **Appointments & Visits** | **Appointments**, **Waitlist**, **Token display** |
+| **Clinical Services** | **OPD**, **Nursing station**, **Lab & results**, procedures, … |
+| **Billing** | Cashier / charge master screens (when subscribed) |
+| **Resources & Inventory** | Stock, vendors, purchase orders, clinic billing hand-off |
+| **Insights** | Dashboards, **Reports library**, **Click analysis** |
+| **Administration** | **Setup**, **Users**, clinic/HR/supply admin screens |
 
 The left menu collapses on smaller screens. Tap the menu icon to open it again.
 

@@ -142,7 +142,7 @@ Tenant portal: `https://qacampus.healthsetu.com/` (or your training org host).
 ### Portal chrome
 
 - [ ] **Home** loads · branding shows `QA Campus`
-- [ ] Left menu sections include **Home**, **My Work**, **People**, **Appointments & Visits**, **Clinical Services**, **Billing**, **Resources & Inventory**, **Insights**, **Administration** (which ones appear depends on modules and your role)
+- [ ] **Home** opens · left-menu sections include **My Work**, **People**, **Appointments & Visits**, **Clinical Services**, **Billing**, **Resources & Inventory**, **Insights**, **Administration** (which ones appear depends on modules and your role)
 - [ ] Left menu → **My Work** → **Inbox** — page opens with **Open** / **Done** tabs
 - [ ] Left menu → **My Work** → **Preferences** → change one setting → **Save**
 - [ ] Left menu → **Insights** → open **Reports library** and **Click analysis**
@@ -203,9 +203,9 @@ Left menu → **Administration** → **Users** → click **Add** for each login 
 
 - [ ] Home loads · HR items visible · Care clinical write not available (or read-only)
 - [ ] Left menu → **HR dashboard** · **HR reports** — both open
-- [ ] Left menu → **Workplaces** → open MAIN · holidays `26/01` Republic Day → **Save**
-- [ ] **Departments** (or workplace depts) → roles attached per seed pack
-- [ ] **Shift roster** → Morning + Evening
+- [ ] Left menu → **Administration** → **Setup** → **Workplaces** → open MAIN · holidays `26/01` Republic Day → **Save**
+- [ ] **Setup** → **Departments & job titles** (or workplace depts) → roles attached per seed pack
+- [ ] Left menu → **People** → **Shift roster** → Morning + Evening
 - [ ] Left menu → **Employees** → click **Hire** for each:
   - [ ] `Dr Anita Shah` · Clinical · clinic_doctor · GMC `G-12345` · **Active**
   - [ ] `Nurse Priya Mehta` · Clinical · clinic_nurse · Active
@@ -258,8 +258,9 @@ Left menu → **Administration** → **Users** → click **Add** for each login 
 
 - [ ] Left menu → **My day** — loads
 - [ ] Open **Check in**, **Leave**, **Salary slips**, **Documents**
-- [ ] Open **Attendance**, **My shifts**, **Holidays**, **Clearances**, **Profile**
-- [ ] No admin Settings / hire screens
+- [ ] Open **Attendance**, **My shifts**, **Holidays**, **Work clearances**
+- [ ] Left menu → **My Work** → **Preferences** (no separate Profile menu)
+- [ ] No admin Setup / hire screens
 - [ ] Sign out
 
 ---
@@ -329,7 +330,7 @@ Left menu → **Administration** → **Users** → click **Add** for each login 
 
 - [ ] Left menu → **Insights** → **Clinic dashboard**
 - [ ] Left menu → **Administration** → **Clinic settings** — name `QA Campus OPD` · reg `QA-CLINIC-001` → **Save**
-- [ ] In Clinic settings, open each rail item: **Identity & letterhead**, **Locations & departments**, **Doctors & fees**, **Rooms, devices & staff**, **Schedules & leave**, **Department templates**, **Fee master**, **Billing & tax rules**, **Roles & permissions**, **Reminders & outbox**, **Integrations**, **Desktop sync inbox**, **Audit log**, **Data export & merge**
+- [ ] In Clinic settings, open each rail item: **Identity & letterhead**, **Locations & departments**, **Doctors & fees**, **Rooms, devices & staff**, **Schedules & leave**, **Department templates**, **Fee master (GST, SAC)**, **Billing & tax rules**, **Roles & permissions**, **Reminders & outbox**, **Patient portal**, **Integrations (SupplySetu, video)**, **Desktop sync inbox**, **Audit log**, **Data export & merge**
 - [ ] Left menu → **People** → **Doctors** (or **Administration** → **Doctor schedules**) — link **Dr Anita Shah** → **Save**
 - [ ] Set schedules — Mon–Sat 09:00–13:00 · 15 min · OPD-1 → **Save**
 - [ ] Left menu → **Administration** → **Fee items** — New consult ₹500 · Follow-up ₹300 · Dressing ₹200 · ECG ₹400 → **Save**
@@ -406,7 +407,7 @@ Left menu → **Administration** → **Users** → click **Add** for each login 
 - [ ] Left menu → **Workflows** — open donor questionnaire · **Approve** if you are the approver
 - [ ] Open a workflow detail by clicking the row
 - [ ] Open lab ELISA dashboard if shown
-- [ ] Print a sample blood label from **Barcodes** (Settings / Administration)
+- [ ] **Administration** → **Setup** → **Documents & branding** → **Labels & barcodes** — print a sample blood label
 - [ ] Left menu → **Delete data (RakhtSetu)** — confirm dialog → **Cancel**
 - [ ] Left menu → **Camps** → **Add** `QA Weekend Camp` · tomorrow · MAIN lawn → **Save** · open detail
 - [ ] Open **Support** if shown
