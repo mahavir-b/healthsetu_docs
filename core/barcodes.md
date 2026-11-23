@@ -16,7 +16,7 @@ Shared barcode templates live in Core so every module prints the same style of l
 
 ## How admins maintain templates
 
-1. Left menu → **Setup** → open **Barcodes** (or platform **Organizations** → org → **Barcodes** tab).
+1. Left menu → **Administration** → **Setup** → **Documents & branding** → **Labels & barcodes** (or platform **Organizations** → org → **Barcodes** tab).
 2. Pick a template → **Mapping** (which screens / fields).
 3. Open **Designer** to move text and barcode symbols.
 4. Save, then test-print one label on the real printer.

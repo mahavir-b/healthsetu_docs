@@ -18,22 +18,22 @@
 ## Step by step
 
 1. [ ] Sign in on the tenant portal
-2. [ ] Left menu → **Setup** (or **Settings**)
+2. [ ] Left menu → **Administration** → **Setup**
 3. [ ] Open **Setup overview** — read the task list and service cards
 4. [ ] Open **Recommended setup** / **Get ready** and complete or accept items
 5. [ ] Under Organization: open **Workplaces** → **Add** MAIN if missing → **Save**; add departments
-6. [ ] Left menu → **Administration** / org admin → **Users** → **Add** staff → **Save**
-7. [ ] Open **Barcodes** → pick a template → **Mapping** → tick fields → **Save** → open **Designer**
-8. [ ] Open **ID cards** → open a version → designer
-9. [ ] Click each subscribed module in the left menu once to confirm it opens
+6. [ ] Left menu → **Administration** → **Users** → **Add** staff → **Save**
+7. [ ] **Setup** → **Documents & branding** → **Labels & barcodes** → pick a template → **Mapping** → tick fields → **Save** → open **Designer**
+8. [ ] Same page → **ID cards** tab → open a version → designer
+9. [ ] Open each main left-menu section once (**People**, **Clinical Services**, **Resources & Inventory**, **Insights**, …) to confirm screens load
 10. [ ] Sign out
 
 ## Where to click in the UI
 
-- Left menu → **Setup** → **Setup overview** / **Recommended setup** / **Get ready**
+- Left menu → **Administration** → **Setup** → **Setup overview** / **Recommended setup** / **Get ready**
 - **Workplaces** → **Add** → **Save**
-- **Users** → **Add** → **Save**
-- **Barcodes** → Mapping → **Save** → Designer
+- **Administration** → **Users** → **Add** → **Save**
+- **Setup** → **Documents & branding** → **Labels & barcodes** / **ID cards**
 
 ## Done when
 

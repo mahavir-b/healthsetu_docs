@@ -147,38 +147,48 @@ Tenant portal: `https://qacampus.healthsetu.com/` (or your training org host).
 - [ ] Left menu → **My Work** → **Preferences** → change one setting → **Save**
 - [ ] Left menu → **Insights** → open **Reports library** and **Click analysis**
 
-### Setup / Settings — open every page and Save/Continue where shown
+### Setup (under Administration)
 
-Left menu → **Administration** → **Setup**. Work through the left settings rail:
+Left menu → **Administration** → **Setup**. Then use the **settings left rail** (not the main portal menu).
 
-- [ ] **Setup overview** · **Get ready** · **Recommended setup** · **Smart setup** · **All settings**
+#### Getting started
+- [ ] **Setup overview**
+- [ ] **Recommended setup**
+- [ ] **Smart setup** (if shown)
+- [ ] From Setup overview, open **Get ready** and **All settings** if those buttons are shown
+
+#### Organization
 - [ ] **Organization details** — confirm Ahmedabad / Gujarat / 380054 → **Save** if you change anything
 - [ ] **Workplaces** — click **Add** → code **MAIN** / Main Campus · Morning + Evening shifts → **Save**
 - [ ] **Departments & job titles** — add Administration, Front Desk, Clinical, Laboratory, Counseling, Stores, Medical Office → **Save**
-- [ ] **People & access** · **Invite** — open each once
-- [ ] **Documents & branding** · **Access profiles** · **Approvals**
-- [ ] **Integrations** · **Data import** · **Audit history** · **Template updates** · impact / diagnostics if shown
-- [ ] Under services → **Patient care** and its sub-pages (doctors, appointments, clinical, portal)
-- [ ] **Billing** service settings (charges, invoices, payments)
-- [ ] **Inventory** service settings (catalog, vendors, assets)
-- [ ] **Blood bank** service settings (facility, policies, components, storage)
-- [ ] **HR** service settings (employment, leave, docs, time, shifts, holidays, check-in, payroll, training)
-- [ ] **Communications** service settings (auto, channels, WhatsApp, templates, prefs)
-- [ ] Open **Diagnostics** if shown
+- [ ] **People & access** — open once; use **Invite** / **Add people** if shown
+- [ ] **Documents & branding** — open tabs **Letterhead & prints**, **Labels & barcodes**, **ID cards**
+
+#### Services
+- [ ] **Patient care** — Overview · **Doctors & specialties** · **Appointments & hours** · **Clinical templates** · **Patient portal**
+- [ ] **Billing & payments** — Overview · **Charges & pricing** · **Invoices & taxes** · **Online payments**
+- [ ] **Inventory & procurement** — Overview · **Catalog & stock locations** · **Vendors & approvals** · **Assets, QC & maintenance**
+- [ ] **Blood bank** — Overview · **Facility & licence** · **Policies** · **Components** · **Storage equipment**
+- [ ] **Human resources** — Overview · **Employment & leave** · **Time & attendance** · **Payroll** · **Training & credentials**
+- [ ] **Communications** — Overview · **Automated messages** · **Channels** · **Message templates** · **Preferences**
+- [ ] **Laboratory & diagnostics** — Overview (if shown)
+
+#### Administration (inside Setup rail)
+- [ ] **Access profiles** · **Approvals** · **Integrations** · **Data import** · **Audit history** · **Template updates**
 
 ### Create every QA login user
 
 Left menu → **Administration** → **Users** → click **Add** for each login on the sheet (password `QaTest@2026`).
 
 - [ ] All users from the login sheet created
-- [ ] Left menu → **Administration** → **Setup** → **Barcodes** → open a template → **Mapping** → tick fields → **Save** → open **Designer**
-- [ ] **Setup** → **ID cards** → open a version → designer · print a sample for a later employee
+- [ ] Left menu → **Administration** → **Setup** → **Documents & branding** → **Labels & barcodes** → open a template → **Mapping** → tick fields → **Save** → open **Designer**
+- [ ] Same page → **ID cards** tab → open a version → designer · print a sample for a later employee
 
 ### Redirect sanity (stay logged in as admin)
 
-- [ ] Opening **Setup** lands on **Setup overview**
-- [ ] Opening **Patients** (if still labelled that way) lands on **Individuals**
-- [ ] Opening **Account** lands on preferences
+- [ ] Opening **Administration** → **Setup** lands on **Setup overview**
+- [ ] Left menu → **People** → **Individuals** opens the people list
+- [ ] Left menu → **My Work** → **Preferences** opens preferences
 
 ### Sign out
 
@@ -195,7 +205,7 @@ Left menu → **Administration** → **Users** → click **Add** for each login 
 - [ ] Left menu → **HR dashboard** · **HR reports** — both open
 - [ ] Left menu → **Workplaces** → open MAIN · holidays `26/01` Republic Day → **Save**
 - [ ] **Departments** (or workplace depts) → roles attached per seed pack
-- [ ] **Shifts** → Morning + Evening
+- [ ] **Shift roster** → Morning + Evening
 - [ ] Left menu → **Employees** → click **Hire** for each:
   - [ ] `Dr Anita Shah` · Clinical · clinic_doctor · GMC `G-12345` · **Active**
   - [ ] `Nurse Priya Mehta` · Clinical · clinic_nurse · Active
@@ -317,18 +327,19 @@ Left menu → **Administration** → **Users** → click **Add** for each login 
 **User:** `qa.clinicadmin@qacampus.test`  
 **Role:** `clinic_admin`
 
-- [ ] Left menu → Care home / clinic dashboard · **Clinic settings** — name `QA Campus OPD` · reg `QA-CLINIC-001` → **Save**
-- [ ] In Clinic settings, open each section/tab: portal, integrations, clinic, clinical, money, roles, people, audit, merge
-- [ ] Left menu → **Doctors** — link **Dr Anita Shah** → **Save**
+- [ ] Left menu → **Insights** → **Clinic dashboard**
+- [ ] Left menu → **Administration** → **Clinic settings** — name `QA Campus OPD` · reg `QA-CLINIC-001` → **Save**
+- [ ] In Clinic settings, open each rail item: **Identity & letterhead**, **Locations & departments**, **Doctors & fees**, **Rooms, devices & staff**, **Schedules & leave**, **Department templates**, **Fee master**, **Billing & tax rules**, **Roles & permissions**, **Reminders & outbox**, **Integrations**, **Desktop sync inbox**, **Audit log**, **Data export & merge**
+- [ ] Left menu → **People** → **Doctors** (or **Administration** → **Doctor schedules**) — link **Dr Anita Shah** → **Save**
 - [ ] Set schedules — Mon–Sat 09:00–13:00 · 15 min · OPD-1 → **Save**
-- [ ] Left menu → **Fee items** — New consult ₹500 · Follow-up ₹300 · Dressing ₹200 · ECG ₹400 → **Save**
-- [ ] Left menu → **Department templates** — open one pack
-- [ ] Open **Procedures** → try **Start** / **Book** buttons (cancel if not running a real sitting)
-- [ ] Open **Recommendations**, **Reports**, **Doctor desk**, **Nursing station**, **Lab**
-- [ ] Open **Token display**, TV board, **Audit log**, **Merge duplicates** (do not merge yet)
-- [ ] Open **Refills**, **Portal requests**, **Billing** *(note if hidden when BILLING module is on)*
-- [ ] Left menu → **Individuals** → **Add** **Test Patient One** (F, 15/03/1990, 9876511111) → **Save** · pencil **Edit** · open chart
-- [ ] Chart tabs: summary, labs, procedures, billing, documents, details
+- [ ] Left menu → **Administration** → **Fee items** — New consult ₹500 · Follow-up ₹300 · Dressing ₹200 · ECG ₹400 → **Save**
+- [ ] Left menu → **Administration** → **Department templates** — open one pack
+- [ ] Left menu → **Clinical Services** → **Procedures** → try **Start** / **Book** (cancel if not running a real sitting)
+- [ ] Open **Recommendations**, **Reports**, **Doctor desk**, **Nursing station**, **Lab & results**
+- [ ] Open **Token display**, **Audit log**, **Merge duplicates** (do not merge yet)
+- [ ] Open **Refills**, **Portal requests**, **Cashier desk** / Care **Billing** *(note if hidden when BILLING module is on)*
+- [ ] Left menu → **People** → **Individuals** → **Add** **Test Patient One** (F, 15/03/1990, 9876511111) → **Save** · pencil **Edit** · **Open chart**
+- [ ] Chart tabs: Summary, Labs, Procedures, Billing, Documents, Details
 - [ ] Sign out
 
 ---
@@ -338,10 +349,10 @@ Left menu → **Administration** → **Users** → click **Add** for each login 
 **User:** `qa.reception@qacampus.test`  
 **Role:** `clinic_receptionist`
 
-- [ ] Left menu → **Individuals** — find Test Patient One
-- [ ] Left menu → **Appointments** → **Add** / **Book** — Test Patient One · Dr Anita Shah · today/tomorrow 09:00 → **Save**
-- [ ] On Appointments, open the **Waitlist** view / tab
-- [ ] Cannot edit fee masters / clinic settings
+- [ ] Left menu → **People** → **Individuals** — find Test Patient One
+- [ ] Left menu → **Appointments & Visits** → **Appointments** → **Add** / **Book** — Test Patient One · Dr Anita Shah · today/tomorrow 09:00 → **Save**
+- [ ] Left menu → **Appointments & Visits** → **Waitlist** (or Waitlist view on Appointments)
+- [ ] Cannot edit **Fee items** / **Clinic settings**
 - [ ] Sign out
 
 ---
@@ -375,7 +386,7 @@ Left menu → **Administration** → **Users** → click **Add** for each login 
 **User:** `qa.cashier@qacampus.test`  
 **Role:** `clinic_cashier`
 
-- [ ] Left menu → **Billing** (or **Cashier desk**) — charge New consultation ₹500 (+ Dressing ₹200 if done)
+- [ ] Left menu → **Cashier desk** (or Care **Billing** if shown) — charge New consultation ₹500 (+ Dressing ₹200 if done)
 - [ ] Click **Mark paid** / **Collect** → **Cash**
 - [ ] Cannot edit doctor schedules
 - [ ] Sign out
@@ -502,7 +513,7 @@ Left menu → **Administration** → **Users** → click **Add** for each login 
 **User:** `qa.billsup@qacampus.test`  
 **Role:** `billing_supervisor`
 
-- [ ] Left menu → Billing **Approvals** · **Credit & refunds**
+- [ ] Left menu → **Approvals** · **Credit & refunds** (Billing)
 - [ ] Optional ₹100 credit-note path
 - [ ] Left menu → **Day close** — run day close (or open and **Cancel** if not closing for real)
 - [ ] Sign out
