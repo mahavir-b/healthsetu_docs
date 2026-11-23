@@ -141,15 +141,15 @@ Tenant portal: `https://qacampus.healthsetu.com/` (or your training org host).
 
 ### Portal chrome
 
-- [ ] Home loads · branding shows `QA Campus`
-- [ ] Left menu shows Care, Supply, Rakht, HR, Billing sections
-- [ ] Left menu → **Inbox** → click **Refresh**
-- [ ] Profile / account menu → **Preferences** → change one setting → **Save**
-- [ ] Left menu → **Insight** → open **Reports** and **Clicks**
+- [ ] **Home** loads · branding shows `QA Campus`
+- [ ] Left menu sections include **Home**, **My Work**, **People**, **Appointments & Visits**, **Clinical Services**, **Billing**, **Resources & Inventory**, **Insights**, **Administration** (which ones appear depends on modules and your role)
+- [ ] Left menu → **My Work** → **Inbox** — page opens with **Open** / **Done** tabs
+- [ ] Left menu → **My Work** → **Preferences** → change one setting → **Save**
+- [ ] Left menu → **Insights** → open **Reports library** and **Click analysis**
 
 ### Setup / Settings — open every page and Save/Continue where shown
 
-Left menu → **Setup** (or **Settings**). Work through the left settings rail:
+Left menu → **Administration** → **Setup**. Work through the left settings rail:
 
 - [ ] **Setup overview** · **Get ready** · **Recommended setup** · **Smart setup** · **All settings**
 - [ ] **Organization details** — confirm Ahmedabad / Gujarat / 380054 → **Save** if you change anything
@@ -168,11 +168,11 @@ Left menu → **Setup** (or **Settings**). Work through the left settings rail:
 
 ### Create every QA login user
 
-Left menu → **Administration** (or **Organization**) → **Users** → click **Add** for each login on the sheet (password `QaTest@2026`).
+Left menu → **Administration** → **Users** → click **Add** for each login on the sheet (password `QaTest@2026`).
 
 - [ ] All users from the login sheet created
-- [ ] Same area → **Barcodes** → open a template → **Mapping** → tick fields → **Save** → open **Designer**
-- [ ] **ID cards** → open a version → designer · print a sample for a later employee
+- [ ] Left menu → **Administration** → **Setup** → **Barcodes** → open a template → **Mapping** → tick fields → **Save** → open **Designer**
+- [ ] **Setup** → **ID cards** → open a version → designer · print a sample for a later employee
 
 ### Redirect sanity (stay logged in as admin)
 
